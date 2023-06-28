@@ -1,0 +1,53 @@
+const appendixData = {
+    first: [
+        {"name":"Introduction to Accounting", "grade": 59},
+        {"name":"Finantial Accounting I", "grade": 78},
+        {"name":"Introduction to Computer Science I", "grade":82},
+        {"name":"Introduction to Computer Science II", "grade":99},
+        {"name":"Computer Systems I", "grade": 75},
+        {"name":"Computer Systems II", "grade": 58},
+        {"name":"Introduction to Calculus", "grade": 54},
+        {"name":"Linear Algebra I", "grade": 95},
+        {"name":"Introduction to Statistics", "grade": 83},
+    ],
+    second: [
+        {"name": "Databases", "grade": 74},
+        {"name": "Algorithms and Data Structure I", "grade": 78},
+        {"name": "Algorithms and Data Structure II", "grade": 81},
+        {"name": "Computer Architecture", "grade": 85},
+        {"name": "Web Information Processing", "grade": 70},
+        {"name": "Operation Systems: Communications and Concurrency", "grade": 76},
+        {"name": "Software Testing", "grade": 80},
+        {"name": "Intro to User Experience (UX) and User Interface (UI)", "grade": 79},
+        {"name": "Software Engineering and Software Process", "grade": 78},
+        {"name": "Theory of Computation", "grade": 56},
+        {"name": "Calculus III", "grade": 76},
+        {"name": "Linear Algebra", "grade": 53},
+    ],
+    third: [
+        {"name": "Software Design", "grade": 70},
+        {"name": "Programming Languages and Compilers", "grade": 77},
+        {"name": "Computer Networks", "grade": 51},
+        {"name": "Team Project", "grade": 83},
+        {"name": "Software Verification", "grade": 68},
+        {"name": "Work Placement Documentation", "grade": 70},
+        {"name": "Industrial Work Placement", "grade": 72},
+        {"name": "Industrial Work Placement", "grade": "--"},
+    ],
+    fourth: [
+        {"name":"Music Programming II", "grade": 76},
+        {"name":"Computer Vision", "grade": 40},
+        {"name":"Advanced Computer Architecture", "grade": 45},
+        {"name":"Programming Language Design and Semantics", "grade": "--"},
+        {"name":"Image and Optical Processing", "grade":"--"},
+        {"name":"Cryptography", "grade":"--"},
+        {"name":"Parallel and Distibuted Systems", "grade":"--"},
+        {"name":"Design for Virtual Environments", "grade":"--"},
+        {"name":"Computer Graphics", "grade":"--"},
+        {"name":"Advanced Concepts and Issues in Comp. Science II", "grade":"--"},
+        {"name":"Final Year Project CSSE", "grade":"--"},
+    
+    ],
+}
+
+export default appendixData;
