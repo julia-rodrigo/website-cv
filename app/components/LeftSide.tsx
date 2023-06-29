@@ -19,7 +19,7 @@ const LeftSide = () => {
                     <SlSocialLinkedin />
                 </span>
             </a>
-            <a href="https://github.com/julia-rodrigo" target="_blank">
+            <a href="mailto:juliarodrigo2301@gmail.com" target="_blank">
                 <span className='iconLink'>
                     <TbMail />
                 </span>

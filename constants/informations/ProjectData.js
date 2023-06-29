@@ -14,7 +14,7 @@ const project_data = [
         "image_path": paper_hill,
         "git_link": "https://github.com/julia-rodrigo/amazon-clone-with-firebase",
         "web_link": "https://again-d5564.web.app/",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
+        "tags": ["React", "Javascript", "Stripe", "Firebase"],
         "video_link": ""
     },
     {
@@ -29,7 +29,7 @@ const project_data = [
         "image_path": jump,
         "git_link": "https://github.com/julia-rodrigo/godot-theme-park",
         "web_link": "",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
+        "tags": ["Godot", "Blender", "GDscript"],
         "video_link": ""
     },
     {
@@ -41,27 +41,12 @@ const project_data = [
                 There is no variety in the monster sprites as I focused on the inner mechanics of the game. 
                 You complete three quests and build a team to complete the game.
             </p>,
-        "image_path": clock_bell,
+        "image_path": desk,
         "git_link": "https://github.com/julia-rodrigo/ruby-v1",
         "web_link": "",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
+        "tags": ["Godot", "Piskel", "GdScript"],
         "video_link": ""
     },
-    {
-        "id": 4,
-        "title": "Website CV",
-        "des": 
-            <p>
-                This is the CV you are viewing now. 
-                I plan to make a login system so that I would not need to keep updating the website 
-                to add more projects throught the CRUD system and have user authentication
-            </p>,
-        "image_path": desk,
-        "git_link": "https://github.com/julia-rodrigo/website-cv",
-        "web_link": "",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
-        "video_link": ""
-    }
 ]
 
 export default project_data;

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.active{
+    color: #64ffda
+}
+
 @layer components{
 
     .bannerIcon{

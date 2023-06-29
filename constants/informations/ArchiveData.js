@@ -1,45 +1,47 @@
-import { paper_hill, clock_bell, desk, jump } from "@/public/assets/index"
-
-
 const archive_data = [
     {
         "id": 1,
-        "title": "Amazon Clone with Firebase Database",
-        "des": " A one page Amazon shopping system on React with Firebase database and hosting. You can add goods to your basket.",
-            
-        "image_path": paper_hill,
-        "git_link": "https://github.com/julia-rodrigo/amazon-clone-with-firebase",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
-        
+        "title": "Website CV",
+        "des": "This is the CV you are viewing now. I have build this site from Noor Muhammad's tutorial in YouTube. I have added animations to make the project unique",
+        "git_link": "https://github.com/julia-rodrigo/website-cv",
+        "tags": ["next.js", "react.js", "typescript.js"], 
     },
     {
         "id": 2,
-        "title": "Godot Theme Park",
-        "des": "In this team project, I designed the backend system and UI.  All objects were made on blender from other teammates.  You can interact with characters by touching the screen and buy items off them.",
-            
-        "image_path": jump,
-        "git_link": "https://github.com/julia-rodrigo/godot-theme-park",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
-        
+        "title": "Java GUI project",
+        "des": "One of my first Java projects. Here we implemented the Traveling Salesperson Problem for co-ordinates in a sphere",
+        "git_link": "https://github.com/julia-rodrigo/cs211-GUI-project-TSP",
+        "tags": ["Java", "GUI"], 
     },
     {
         "id": 3,
-        "title": "Godot Ruby RPG",
-        "des": "A  pokemon-like rpg game in Godot with some character sprites I made.   is no variety in the monster sprites as I focused on the inner mechanics of the game. You complete three quests and build a team to complete the game.",
-        "image_path": clock_bell,
-        "git_link": "https://github.com/julia-rodrigo/ruby-v1",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
-        
+        "title": "Java Server Chat",
+        "des": "A quick chat server set up using Java threads. There is a screenshot provided in the directory to demonstrate the code in Eclipse.",
+        "git_link": "https://github.com/julia-rodrigo/java-server-chat",
+        "tags": ["Java", "Threads"], 
     },
     {
         "id": 4,
-        "title": "Website CV",
-        "des": "This is the CV you are viewing now.  I plan to make a login system so that I would not need to keep updating the website  to add more projects throught the CRUD system and have user authentication",            
-        "image_path": desk,
-        "git_link": "https://github.com/julia-rodrigo/website-cv",
-        "tags": ["next.js", "typescript.js", "next-auth", "stripe"],
-        
-    }
+        "title": "Java Multicast Chat",
+        "des": "This code detects the users IP address and one room will recieve all the chat logs. There is a picture provided in the directory.",
+        "git_link": "https://github.com/julia-rodrigo/java-multicast-chat",
+        "tags": ["Java"], 
+    },
+    {
+        "id": 5,
+        "title": "Godot VR Demo",
+        "des": "This is code provided for the player movement in VR Godot engine. I also demonstrate my blender skills in making the coffee shop.",
+        "git_link": "https://github.com/julia-rodrigo/godot-vr-coffeeshop",
+        "tags": ["Godot", "Blender", "GDscript"], 
+    },
+    {
+        "id": 6,
+        "title": "Godot Shopping Interaction",
+        "des": "This is the code for the shop keeper that we used in the expanded theme park. I used viewports and backend code to work together with the UI.",
+        "git_link": "https://github.com/julia-rodrigo/godot-shopping-interaction",
+        "tags": ["Godot", "GDscript"], 
+    },
+
 ]
 
 export default archive_data;

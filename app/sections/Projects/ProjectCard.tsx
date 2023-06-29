@@ -52,7 +52,7 @@ const ProjectCard = ({id, title, des, image_path, git_link, web_link, tags, vide
                 </div>
                 <ul className='text-xs md-text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark '>
                     {tags.map((tag) => (
-                        <li key={id} className='hover:text-pink-200' >{tag}</li>
+                        <li key={id} className='hover:text-yellow-200' >{tag}</li>
                     ))}
                 </ul>
                 <div className='text-2xl flex gap-4'>
