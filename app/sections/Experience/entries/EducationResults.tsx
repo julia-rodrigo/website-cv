@@ -32,7 +32,7 @@ const EducationResults = (results: ResultProps) => {
                     </span> 
                     {name}
                 </div>
-                <div className='text-pink-200'>
+                <div className='text-pink-200 hover:-translate-y-0.5 duration-300'>
                     {marks}
                 </div>
 

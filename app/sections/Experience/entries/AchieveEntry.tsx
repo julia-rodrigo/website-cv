@@ -27,7 +27,7 @@ const AchieveEntry = ({ name, when, des } : EntryProps) => {
             {when}
         </p>
 
-        <p className="text-sm mt-7 text-textDark w-full flex flex-col lg:flex-row gap-16" >{des}</p>
+        <p className="text-sm mt-7 text-textDark w-full flex flex-col lg:flex-row gap-16 hoverParagraph" >{des}</p>
 
     </motion.div>
     

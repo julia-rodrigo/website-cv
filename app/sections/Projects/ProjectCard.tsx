@@ -47,7 +47,7 @@ const ProjectCard = ({id, title, des, image_path, git_link, web_link, tags, vide
                     {title}
                 </p>
                 <h3 className='text-2xl font-bold'></h3>
-                <div className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md hover:bg-[#1a2b49] hover:text-white'>
+                <div className='bg-[#112240] text-sm md:text-base p-4 md:p-6 rounded-md hover:bg-[#1a2b49] hover:text-white'>
                     {des}
                 </div>
                 <ul className='text-xs md-text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark '>

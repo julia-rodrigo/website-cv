@@ -38,12 +38,19 @@ import teacher_and_student from './canva-images/teacher_and_student.jpg';
 import three_friends_designing from './canva-images/three_friends_designing.jpg';
 import three_friends_flowers from './canva-images/three_friends_flowers.jpg';
 
+import planets from './animations/planets.json'
+import cuteship from './animations/cuteship.json'
+import rocket from './animations/rocket.json'
+import deer from './animations/deer.json'
 
 var logo = light_bulb
 var bannerImg = beautiful_composition
 
 export {
-
+    planets,
+    cuteship,
+    rocket,
+    deer,
     logo,
     bannerImg,
 

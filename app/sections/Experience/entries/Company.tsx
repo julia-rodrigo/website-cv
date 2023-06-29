@@ -28,7 +28,7 @@ const Company = ({ title, where, when, des }: companyProps) => {
         </h3>
 
         <p 
-            className="text-sm mt-1 font-medium text-textDark"
+            className="text-sm mt-1 font-medium text-textDark hover:text-pink-200 duration-300"
         >
             {when}
         </p>
@@ -36,7 +36,7 @@ const Company = ({ title, where, when, des }: companyProps) => {
         <ul className="mt-6 flex flex-col gap-3">
             {
                 des.map((sentence: string) => (
-                <li className="text-base flex gap-2 text-textDark" key={des.indexOf(sentence)}>
+                <li className="text-base flex gap-2 text-textDark hoverParagraph" key={des.indexOf(sentence)}>
                     <span
                         className="text-textGreen mt-1"
                     >

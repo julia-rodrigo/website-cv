@@ -8,6 +8,10 @@ import { SiGodotengine, SiTypescript } from 'react-icons/si'
 
 import banner_data from "../../../constants/informations/Banner"
 
+
+import Lottie from "lottie-react";
+import { deer } from '@/public/assets'
+
 const LeftBanner = () => {
 
     const [text] = useTypewriter ({
@@ -33,15 +37,18 @@ const LeftBanner = () => {
                 Hi, my name is
             </motion.h4>
 
+           <div className='flex md:flex-row sm:flex-col sm:items-start items-center justify-start'>
             <motion.h1 
-                initial={{ y: 10, opacity: 0 }} 
-                animate={{ y: 0, opacity: 1 }}
-                transition={{  duration: 0.5, delay: 0.7 }}
+                  initial={{ y: 10, opacity: 0 }} 
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{  duration: 0.5, delay: 0.7 }}
 
-                className="text-5xl font-bold text-white lgl:text-6xl flex flex-col"
-            >
-              <span className='text-designColor capitalize'>Julia Rodrigo</span>
-            </motion.h1>
+                  className="text-5xl font-bold text-white lgl:text-6xl flex flex-col"
+              >
+                <span className='text-designColor capitalize'>Julia Rodrigo</span>
+              </motion.h1>
+              <Lottie animationData={deer} className='max-w-[100px] md:ml-10 sm:ml-0'/>
+           </div>
             <motion.h2 
                 initial={{ y: 10, opacity: 0 }} 
                 animate={{ y: 0, opacity: 1 }}
@@ -50,7 +57,7 @@ const LeftBanner = () => {
                 className='text-4xl font-bold text-white'
             >
               a {}
-              <span className='text-textGreen'>{text}</span>
+              <span className='text-textGreen hover:text-yellow-200 duration-300'>{text}</span>
               <Cursor
                 cursorStyle="|"
                 cursorColor='pink'
@@ -62,7 +69,7 @@ const LeftBanner = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{  duration: 0.5, delay: 0.9 }}
 
-                className='text-base md:max-w-[650px] text-textLight font-medium tracking-wide'
+                className='text-base md:max-w-[650px] text-textLight font-medium tracking-wide hover:text-white'
             >
               I am a creative computer science student with 2 years experience in web development and 1 year experience in game development, 
               eager to improve my skills and building new projects with individuals (like you !).
@@ -110,6 +117,7 @@ const LeftBanner = () => {
               </div>
             </div>
           </motion.div>
+          
         </div>
   )
 }

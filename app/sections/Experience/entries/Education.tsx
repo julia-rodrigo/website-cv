@@ -57,7 +57,7 @@ const Education = ({ id, title, where, when, year }: educationProps) => {
         </h3>
 
         <p 
-            className="text-sm mt-1 font-medium text-textDark"
+            className="text-sm mt-1 font-medium text-textDark hover:text-white duration-300"
         >
             {when}
         </p>

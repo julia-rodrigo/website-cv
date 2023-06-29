@@ -63,13 +63,13 @@ const about_data = [
     },
     {
         "id": 11,
-        "title": "Blender",
+        "title": "Vercel",
         "des": "",
         "icon": <AiFillThunderbolt />,
     },
     {
         "id": 12,
-        "title": "Blender",
+        "title": "Git",
         "des": "",
         "icon": <AiFillThunderbolt />,
     },
