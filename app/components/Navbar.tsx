@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
 
-import { logo } from "@/public/assets";
+import { maya, ruby_images } from "@/public/assets";
 import Link from 'next/link';
 
 import { motion } from 'framer-motion';
@@ -37,8 +37,10 @@ function Navbar() {
                 initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
+                className='flex flex-row'
             >
-                <Image className="w-14" src={logo} alt="logo" />
+                <Image className="max-w-[100%]" src={maya} alt="logo" />
+
             </motion.div>
             <div className='hidden mdl:inline-flex items-center gap-7'>
                 <ul className='flex text-[13px] gap-7'>

@@ -43,17 +43,54 @@ import cuteship from './animations/cuteship.json'
 import rocket from './animations/rocket.json'
 import deer from './animations/deer.json'
 
+import ruby1 from './animations/ruby/1.gif'
+import ruby2 from './animations/ruby/2.gif'
+import ruby3 from './animations/ruby/3.gif'
+import ruby4 from './animations/ruby/4.gif'
+import ruby5 from './animations/ruby/5.gif'
+import ruby6 from './animations/ruby/6.gif'
+import ruby7 from './animations/ruby/7.gif'
+import ruby8 from './animations/ruby/8.gif'
+import ruby9 from './animations/ruby/9.gif'
+import ruby10 from './animations/ruby/10.gif'
+import ruby11 from './animations/ruby/11.gif'
+import ruby12 from './animations/ruby/12.gif'
+import maya from './animations/maya/maya.gif'
+
+import me from './me/me.png'
+import me2 from './me/me2.png'
+import drawing from './me/drawing.jpg'
+
 var logo = light_bulb
 var bannerImg = beautiful_composition
 
+var ruby_images = [
+    ruby1, 
+    ruby2, 
+    ruby3, 
+    ruby4, 
+    ruby5, 
+    ruby6, 
+    ruby7, 
+    ruby8, 
+    ruby9, 
+    ruby10, 
+    ruby11, 
+    ruby12, 
+]
+
 export {
+    ruby_images,
     planets,
     cuteship,
     rocket,
     deer,
     logo,
     bannerImg,
-
+    drawing,
+    me,
+    me2,
+    maya,
     april,
     beautiful_composition,
     beautiful_old_woman,

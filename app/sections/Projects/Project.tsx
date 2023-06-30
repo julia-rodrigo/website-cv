@@ -25,10 +25,10 @@ const Project = () => {
     >
       <SectionTitle titleNo='03. ' title="Projects" />
         <div className='w-full flex flex-col items-center justify-center mt-10 gap-12'>
-        {project_data.map((project) => (
+        {project_data.map((project, i) => (
           <ProjectCard 
-              key = {project.id}
-              id = {project.id}
+              key = {i}
+              id = {i}
               title = {project.title}
               des = {project.des}
               image_path = {project.image_path}

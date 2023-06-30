@@ -1,5 +1,5 @@
 import SectionTitle from '@/app/components/SectionTitle'
-import { bannerImg } from '@/public/assets'
+import { me2, drawing } from '@/public/assets'
 import Image from 'next/image'
 import React from 'react'
 import { AiFillThunderbolt } from 'react-icons/ai'
@@ -9,14 +9,6 @@ import { AiFillThunderbolt } from 'react-icons/ai'
 import about_data from "../../../constants/informations/About"
 
 const About = () => {
-
-   
-    // I am interested in both web and game development. I mainly use backend programming, 
-    //           where I focus on various software interactions to users, such as CRUD systems, API endpoints and event handlers. 
-    //           I have some interests in UI design, music and drawing and animating pixel sprites and designs.
-
-
-    //           As my world is bigger, I am looking for new opportunities to improve in backend web and game development. Please contact me anytime.
   return (
     <section
         id="about"
@@ -64,12 +56,18 @@ const About = () => {
             <div className='relative w-full h-full lgl:h-full z-20 flex pl-10 lgl:pl-0 '>
               <Image 
                 className='z-10 rounded-lg object-cover'
-                src={bannerImg}
+                src={me2}
                 alt="profileImage"
               />
               <div className='absolute hidden lgl:inline-flex w-full h-full border-2 -right-4 -bottom-4 border-textGreen rounded-md group-hover:border-pink-200 group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300'></div>
 
-              <div className='absolute z-10 hidden lgl:inline-block w-full h-full bg-textLight/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300'></div>
+              <div className='absolute z-10 hidden lgl:inline-block w-full h-full bg-textLight/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300'>
+                <Image 
+                    className='rounded-lg transition-opacity ease-in duration-500 opacity-100 group-hover:opacity-0'
+                    src={drawing}
+                    alt="profileImage"
+                  />
+              </div>
             </div>
           </div>
         </div>

@@ -1,9 +1,11 @@
 import React from 'react'
 import { desk } from '@/public/assets/index'
 import Image from 'next/image'
+import Ruby from '@/app/components/Ruby'
 
 const RightBanner = () => {
   return (
+    // <div className='w-full lgl:w-1/3 h-1/3 relative group'>
     <div className='w-full lgl:w-1/3 h-1/3 relative group'>
         <div className="absolute w-full -left-6 -top-6 rounded-lg items-center pl-20">
           <div className='w-full h-full relative z-20 flex pl-6 lgl:pl-0'>
@@ -16,8 +18,12 @@ const RightBanner = () => {
             </div>
           </div>
           <div className='hidden lgl:inline-block w-[0px] h-[1px] bg-textGreen rounded-md group-hover:w-full transition-all duration-900'></div>
-
+          <div className='w-full h-full sm:my-10 mdl:pl-24'>
+            
+            <Ruby />
+          </div>
         </div>
+        
     </div>
   )
 }

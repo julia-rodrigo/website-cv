@@ -86,7 +86,7 @@ const LeftBanner = () => {
             
         >
             <div>
-              <h2 className="text-base uppercase font-titleFont mb-4">
+              <h2 className="text-base uppercase font-titleFont mb-4 hoverParagraph">
                 Find me on
               </h2>
               <div className="flex gap-4">
@@ -102,7 +102,7 @@ const LeftBanner = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-base uppercase font-titleFont mb-4">
+              <h2 className="text-base uppercase font-titleFont mb-4 hoverParagraph">
                 BEST SKILL ON
               </h2>
               <div className="flex gap-4">
