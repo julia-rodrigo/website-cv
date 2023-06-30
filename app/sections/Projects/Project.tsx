@@ -24,19 +24,21 @@ const Project = () => {
         className='max-w-contentContainer mx-auto md:px-20 py-24 sm:px-10'
     >
       <SectionTitle titleNo='03. ' title="Projects" />
-        <div className='w-full flex flex-col items-center justify-center mt-10 gap-12'>
+        <div className='w-full flex flex-col items-center justify-center mt-10 gap-5'>
         {project_data.map((project, i) => (
-          <ProjectCard 
-              key = {i}
-              id = {i}
-              title = {project.title}
-              des = {project.des}
-              image_path = {project.image_path}
-              git_link = {project.git_link}
-              web_link = {project.web_link}
-              tags = {project.tags}
-              video_link = {project.video_link}
-          />
+          <div className='pb-10'>
+            <ProjectCard 
+                key = {i}
+                id = {i}
+                title = {project.title}
+                des = {project.des}
+                image_path = {project.image_path}
+                git_link = {project.git_link}
+                web_link = {project.web_link}
+                tags = {project.tags}
+                video_link = {project.video_link}
+            />
+          </div>
         ))}
         </div>
 

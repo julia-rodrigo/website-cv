@@ -61,6 +61,12 @@ import me from './me/me.png'
 import me2 from './me/me2.png'
 import drawing from './me/drawing.jpg'
 
+import amazon from './site-images/amazon.png'
+import theme_park from './site-images/theme_park.jpg'
+import ruby_rpg1 from './site-images/ruby_rpg1.png'
+import ruby_rpg2 from './site-images/ruby_rpg2.png'
+import ruby_rpg3 from './site-images/ruby_rpg3.png'
+
 var logo = light_bulb
 var bannerImg = beautiful_composition
 
@@ -88,9 +94,14 @@ export {
     logo,
     bannerImg,
     drawing,
+    amazon,
+    theme_park,
     me,
     me2,
     maya,
+    ruby_rpg1,
+    ruby_rpg2,
+    ruby_rpg3,
     april,
     beautiful_composition,
     beautiful_old_woman,

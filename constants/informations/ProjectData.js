@@ -1,4 +1,4 @@
-import { paper_hill, clock_bell, desk, jump } from "@/public/assets/index"
+import { ruby_rpg1, desk, amazon, theme_park, ruby_rpg3 } from "@/public/assets/index"
 
 
 const project_data = [
@@ -11,7 +11,7 @@ const project_data = [
                 <span className='text-textGreen'> React </span>
                 with Firebase database and hosting. You can add goods to your basket.
             </p>,
-        "image_path": paper_hill,
+        "image_path": amazon,
         "git_link": "https://github.com/julia-rodrigo/amazon-clone-with-firebase",
         "web_link": "https://again-d5564.web.app/",
         "tags": ["React", "Javascript", "Stripe", "Firebase"],
@@ -26,11 +26,11 @@ const project_data = [
                 All objects were made on blender from other teammates. 
                 You can interact with characters by touching the screen and buy items off them.
             </p>,
-        "image_path": jump,
+        "image_path": theme_park,
         "git_link": "https://github.com/julia-rodrigo/godot-theme-park",
         "web_link": "",
         "tags": ["Godot", "Blender", "GDscript"],
-        "video_link": ""
+        "video_link": "https://youtu.be/kf_XYYIhaTY"
     },
     {
         "id": 3,
@@ -41,11 +41,11 @@ const project_data = [
                 There is no variety in the monster sprites as I focused on the inner mechanics of the game. 
                 You complete three quests and build a team to complete the game.
             </p>,
-        "image_path": desk,
+        "image_path": ruby_rpg3,
         "git_link": "https://github.com/julia-rodrigo/ruby-v1",
         "web_link": "",
         "tags": ["Godot", "Piskel", "GdScript"],
-        "video_link": ""
+        "video_link": "https://youtu.be/WJKnpMxstjI"
     },
 ]
 

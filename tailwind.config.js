@@ -37,10 +37,17 @@ module.exports = {
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
         bgLight: "#112240",
+        bodyColorLight: "#ffffff",
+        sideColor: "#eff6ff",
+        hoverColorLight: "#eeeeee",
+        textDarker: "#123123",
+        textHolo: "#231323",
+        textBright: "#223443",
       }
     },
   },
   plugins: [
     require('tailwind-scrollbar'),
   ],
+  darkMode: 'class',
 }

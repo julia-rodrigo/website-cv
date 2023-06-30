@@ -17,13 +17,13 @@ const experience_data = {
         {
             "id": 2,
             "name": "Rodrigo Fine Foods",
-            "title": "Food Distributer",
+            "title": "Storehouse Management",
             "where": "@Rodrigo_Fine_Foods",
             "when": "Feb 2022 - August 2022",
 
             "des": [
                 "Rodrigo Trading is a company that focuses on providing Ireland with a taste of food from various cultures around Asia.",
-                "During my work, I checked the stock expiration dates, interacted with customers, packed online delivery orders, sold and loaded stocks",
+                "During my work, I checked the stock expiration dates, interacted with customers, packed online delivery orders, file order invoices, sold and loaded stocks",
             ],
         }
     ],

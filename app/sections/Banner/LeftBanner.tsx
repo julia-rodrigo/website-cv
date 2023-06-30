@@ -3,14 +3,8 @@ import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { motion } from "framer-motion"
 
-import { FaHtml5, FaLinkedinIn, FaReact, FaJava } from 'react-icons/fa'
-import { SiGodotengine, SiTypescript } from 'react-icons/si'
-
 import banner_data from "../../../constants/informations/Banner"
-
-
-import Lottie from "lottie-react";
-import { deer } from '@/public/assets'
+import Deer from '@/app/components/Animations/Deer';
 
 const LeftBanner = () => {
 
@@ -31,7 +25,7 @@ const LeftBanner = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{  duration: 0.5, delay: 0.6 }}
 
-                className='text-lg font-titleFont tracking-wide text-textGreen'
+                className='text-lg font-titleFont tracking-wide dark:text-textGreen text-textDarker'
 
             >
                 Hi, my name is
@@ -43,21 +37,21 @@ const LeftBanner = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{  duration: 0.5, delay: 0.7 }}
 
-                  className="text-5xl font-bold text-white lgl:text-6xl flex flex-col"
+                  className="text-5xl font-bold dark:text-white text-textDarker lgl:text-6xl flex flex-col"
               >
                 <span className='text-designColor capitalize'>Julia Rodrigo</span>
               </motion.h1>
-              <Lottie animationData={deer} className='max-w-[100px] md:ml-10 sm:ml-0'/>
+              <Deer />
            </div>
             <motion.h2 
                 initial={{ y: 10, opacity: 0 }} 
                 animate={{ y: 0, opacity: 1 }}
                 transition={{  duration: 0.5, delay: 0.8 }}
 
-                className='text-4xl font-bold text-white'
+                className='text-4xl font-bold dark:text-white text-textDarker'
             >
               a {}
-              <span className='text-textGreen hover:text-yellow-200 duration-300'>{text}</span>
+              <span className='dark:text-textGreen dark:hover:text-yellow-200 duration-300 text-[#a3471d] hover:text-[#eeeeee]'>{text}</span>
               <Cursor
                 cursorStyle="|"
                 cursorColor='pink'

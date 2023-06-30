@@ -8,7 +8,7 @@ import {
 const LeftSide = () => {
   return (
     <div className='w-full h-full flex flex-col items-center justify-end gap-4 text-textLight'>
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 '>
             <a href="https://github.com/julia-rodrigo" target="_blank">
                 <span className='iconLink'>
                     <TbBrandGithub />

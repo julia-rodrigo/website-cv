@@ -3,9 +3,10 @@ import React, { useRef } from 'react'
 import Link from 'next/link';
 
 import { motion } from 'framer-motion';
-import { MdOutlineClose } from "react-icons/md"
+import { MdArrowForward } from "react-icons/md"
 import { TbBrandGithub, TbMail } from 'react-icons/tb';
 import { SlSocialLinkedin } from 'react-icons/sl';
+import Ruby from './Animations/Ruby';
 
 interface menuProps {
     setShowMenu: any,
@@ -31,11 +32,11 @@ const Menu = ({ setShowMenu, handleScroll } : menuProps) => {
             initial={{ x:20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.1 }}
-            className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative'
+            className='w-[80%] h-full overflow-y-scroll scrollbar scrollbar-none bg-[#112240] flex flex-col items-center px-4 py-10 relative'
         >
-            <MdOutlineClose 
+            <MdArrowForward 
                 onClick={() => setShowMenu(false)}
-                className='text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4'
+                className='text-3xl text-textGreen cursor-pointer hover:text-pink-200 absolute top-4 right-4'
             />
             <div className='flex flex-col items-center gap-7'>
                 <ul className='flex text-base flex-col gap-7'>
@@ -174,6 +175,14 @@ const Menu = ({ setShowMenu, handleScroll } : menuProps) => {
                     reactbd.proton.me
                 </p>
             </motion.a>
+            <motion.div
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.3, ease: "easeIn" }}
+                className='pt-5'
+            >
+                <Ruby />
+            </motion.div>
         </motion.div>
     </div>
   )

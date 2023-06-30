@@ -16,7 +16,7 @@
     }
 
     .experienceLi {
-        @apply border-l-2 bg-transparent hover:bg-bgLight py-3 text-sm cursor-pointer duration-300 px-8 font-medium border-l-hoverColor text-textDark
+        @apply border-l-2 bg-transparent dark:hover:bg-bgLight hover:bg-hoverColorLight py-3 text-sm cursor-pointer duration-300 px-8 font-medium border-l-hoverColor text-textDark
     }
 
     .bgOpacity {
@@ -36,7 +36,7 @@
     }
 
     .iconLink{
-        @apply w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300;
+        @apply w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-yellow-200 cursor-pointer hover:-translate-y-2 transition-all duration-300;
     }
 
     .hoverTitle {

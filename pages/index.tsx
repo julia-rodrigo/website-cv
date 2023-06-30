@@ -11,7 +11,12 @@ import Project from '@/app/sections/Projects/Project'
 import Contact from '@/app/sections/Contact/Contact'
 import Footer from '@/app/components/Footer'
 
+
 export default function Home() {
+// [#2b526b]
+// [#8ae7d0]
+// [#c5fff1]
+// #eff6ff
   return (
     <>
       <Head>
@@ -21,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/assets/me/me.png" />
 
       </Head>
-      <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'>
+      <main className='w-full h-screen font-bodyFont dark:bg-bodyColor bg-white text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'>
         <Navbar />
         <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
           <motion.div

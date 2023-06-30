@@ -18,7 +18,7 @@ interface projectData {
 const ProjectCard = ({id, title, des, image_path, git_link, web_link, tags, video_link}: projectData) => {
   return (
     
-        <div className='overflow-hidden flex flex-col mdl:flex-row gap-6'>
+        <div className='overflow-hidden flex flex-col mdl:flex-row gap-6 items-center justify-center'>
             {web_link? <a 
                 className='sml:w-5/6 w-full xl:px-0 xl:w-1/2 h-auto relative group'
                 href={web_link}
