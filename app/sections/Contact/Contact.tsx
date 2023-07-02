@@ -10,7 +10,13 @@ const Contact = () => {
 
   const [ loop, setLoop ] = useState(true);
   
-  const handleLoop = () => {
+  function timeout(delay: number) {
+    return new Promise( res => setTimeout(res, delay) );
+}
+
+  const handleLoop = async () => {
+    await timeout(1300);
+
     setLoop(false)
   }
 
@@ -34,9 +40,9 @@ const Contact = () => {
       </p>
       <h2 className='font-titleFont text-5xl font-semibold'>Get in Touch</h2>
 
-      <div className='dark:hidden inline-block max-w-[200px] max-h-[200px] relative items-center justify-center mt-10 mb-5 z-10'>
+      <div className='dark:hidden inline-block max-w-[200px] max-h-[200px] relative items-center justify-center mt-10 mb-5'>
         <Lottie className='absolute w-full overflow-hidden rounded-full' animationData={city} />
-        <Lottie className='relative w-full overflow-hidden rounded-full z-50' animationData={whale} loop={loop} onLoopComplete={handleLoop} onClick={() => setLoop(true)}/>
+        <Lottie className={`relative w-full overflow-hidden rounded-full ${loop ? 'animate-spin 3s' : 'animate-none'}`} animationData={whale} loop={loop} onLoopComplete={handleLoop} onClick={() => setLoop(true)}/>
       </div>
 
       <a href='mailto:juliarodrigo2301@gmail.com' className='dark:pointer-events-auto pointer-events-none'>
