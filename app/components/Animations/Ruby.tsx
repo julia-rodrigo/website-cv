@@ -4,6 +4,7 @@ import { ruby_images } from '@/public/assets/index'
 
 
 const Ruby = () => {
+  const date = new Date();
 
   const speech_bubbles = [
     "I am running!",
@@ -13,6 +14,7 @@ const Ruby = () => {
     "Hihihi~",
     "Blue roses buquet are best afterall!",
     "Pusheen is so cute",
+    "I am based in Ireland :)",
     "I wanna join a band",
     "This teacup is so pretty",
     "And chocolate cake and hot coco",
@@ -44,11 +46,11 @@ const Ruby = () => {
     "Me! Poof yo!",
     "Ka~ na~ ko~ lo~ve~",
     "Pajamas are really comfortable",
-    "In that picture, I was gifted that snugglejumper",
-    "Driving is like playing music. It's so kind",
+    "A friend gave me that pink snuggle-jumper",
+    "Driving is like playing music",
     "I can see stars better because of my projector.",
     "I heard that time traveling forwards is actually real!",
-    "Puppy, snow, star, spring, nor, monkey, nadz",
+    "Puppy, snow, star, spring, noir, monkey, nachan",
     "In the course I took up, I met a nice friend.",
     "I hope we can meet and talk",
     "Oh don't be! I don't like horror either.",
@@ -66,8 +68,16 @@ const Ruby = () => {
     "I'm sure I've folded 1000 paper cranes",
     "My small team in f5 were really kind",
     "I've collected over thirthy 4-leaf clovers",
-    "I've never threw away my animal figures",
+    "I'm never throwing away my animal figures",
     "I can't sleep well without tiger",
+    "I broke my computer screen... ouch!",
+    "I miss my huawei phone",
+    "'Rymoquinn' was the name of my old car",
+    "My current car is called Boogiepop btw",
+    "The date is... " + date.getDate() + "." + (date.getMonth() + 1) + "." +  date.getFullYear() + ", time really flies!",
+    "Join me!",
+    "Light-mode took me a day! Do you like it?",
+    "Pixel and Lottiefile animations are lively!",
   ]
 
   const [ speech, setSpeech ] = useState(speech_bubbles[0]);
@@ -85,9 +95,9 @@ const Ruby = () => {
 
   return (
       <div className='relative p-4'>
-        <div className='h-[60px] relative flex flex-row'>
-          <div className='group/ruby flex flex-row gap-6 items-center' >
-            <div className='items-center'>
+        <div className='h-[60px] relative flex flex-row '>
+          <div className='group/ruby flex flex-row gap-6 items-center ' >
+            <div className='flex items-center h-[40px] justify-center rounded-full dark:bg-transparent bg-[#e9e2a9] w-[40px]'>
               <Image
                 src={ruby}
                 alt="ruby_images"
@@ -95,7 +105,7 @@ const Ruby = () => {
                 onClick={handleClick}
               />
             </div>
-            <span className='absolute text-textGreen font-medium text-sm upercase bg-hoverColor px-4 py-[1px] ml-6 rounded-xl sm:translate-x-3 sm:group-hover/ruby:translate-x-8 translate-x-3 group-hover/ruby:translate-x-12 transition-all duration-300 opacity-0 group-hover/ruby:opacity-95 mr-5'>
+            <span className='absolute dark:text-textGreen text-hoverDark font-medium text-sm upercase  bg-textWall/10 dark:bg-hoverColor px-4 py-[1px] ml-6 rounded-xl sm:translate-x-3 sm:group-hover/ruby:translate-x-8 translate-x-3 group-hover/ruby:translate-x-12 transition-all duration-300 opacity-0 group-hover/ruby:opacity-95 mr-5'>
               {speech}
             </span>
           </div>

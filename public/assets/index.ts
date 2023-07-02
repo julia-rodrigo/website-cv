@@ -38,10 +38,14 @@ import teacher_and_student from './canva-images/teacher_and_student.jpg';
 import three_friends_designing from './canva-images/three_friends_designing.jpg';
 import three_friends_flowers from './canva-images/three_friends_flowers.jpg';
 
-import planets from './animations/planets.json'
-import cuteship from './animations/cuteship.json'
-import rocket from './animations/rocket.json'
-import deer from './animations/deer.json'
+import planets from './animations/lottie-files/planets.json'
+import cuteship from './animations/lottie-files/cuteship.json'
+import rocket from './animations/lottie-files/rocket.json'
+import deer from './animations/lottie-files/deer.json'
+import stars from './animations/lottie-files/stars.json'
+import hills from './animations/lottie-files/hills.json'
+import city from './animations/lottie-files/city.json'
+import whale from './animations/lottie-files/whale.json'
 
 import ruby1 from './animations/ruby/1.gif'
 import ruby2 from './animations/ruby/2.gif'
@@ -91,6 +95,10 @@ export {
     cuteship,
     rocket,
     deer,
+    stars,
+    hills,
+    city,
+    whale,
     logo,
     bannerImg,
     drawing,

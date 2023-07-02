@@ -13,6 +13,8 @@ import archive_data from '@/constants/informations/ArchiveData';
 import ArchiveCard from './ArchiveCard';
 
 import { motion } from 'framer-motion'
+import StarField from '@/app/components/background/StarField';
+import StarJumps from '@/app/components/background/StarJumps';
 
 
 const Project = () => {
@@ -21,8 +23,13 @@ const Project = () => {
   return (
     <section
         id="projects"
-        className='max-w-contentContainer mx-auto md:px-20 py-24 sm:px-10'
+        className='relative max-w-contentContainer mx-auto md:px-20 py-24 sm:px-10'
     >
+      <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
+          <StarField />
+          <StarJumps />
+      </div>
+
       <SectionTitle titleNo='03. ' title="Projects" />
         <div className='w-full flex flex-col items-center justify-center mt-10 gap-5'>
         {project_data.map((project, i) => (
@@ -42,9 +49,19 @@ const Project = () => {
         ))}
         </div>
 
+        <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
+            <StarJumps />
+        </div>
+
         {
             showMore && (
-                <div className='mx-auto pt-20 md:pt-24'>
+                <div className='relative mx-auto pt-20 md:pt-24'>
+
+                  <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
+                    <StarJumps />
+                    <StarField />
+                  </div>
+
                     <div className='w-full flex flex-col items-center'>
                         <h2 className='text-3xl font-titleFont font-semibold hover:text-white'>Other Projects</h2>
                         <p className='text-sm font-titleFont text-textGreen'>view the archive</p>
@@ -70,7 +87,13 @@ const Project = () => {
             )
         }
 
-        <div className='mt-20 flex items-center justify-center'>
+        
+
+        <div className='relative mt-20 flex items-center justify-center'>
+            <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
+                <StarField />
+            </div>
+
             <button
                 onClick={() => showMore ? setShowMore(false) : setShowMore(true)}
                 className='w-36 h-12 rounded-md text-textGreen text-[13]px border border-textGreen hover:bg-hoverColor duration-300'

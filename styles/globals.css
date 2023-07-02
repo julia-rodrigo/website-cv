@@ -9,14 +9,18 @@
 @layer components{
 
     .bannerIcon{
-        @apply w-16 h-16 bg-opacity-25 text-gray-200 text-xl
-        inline-flex items-center justify-center rounded-md shadow-navbarShadow bg-slate-700
-        hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-textGreen
-        cursor-pointer duration-300;
+        @apply w-16 h-16 dark:bg-opacity-25 text-gray-200 text-xl
+        inline-flex items-center justify-center rounded-md dark:bg-slate-700 borderLine
+        hover:bg-opacity-40 hover:-translate-y-1 transition-all dark:hover:text-textGreen hover:text-textWall
+        cursor-pointer duration-300 border-textWall;
+    }
+
+    .borderLine {
+        @apply border-dashed border-[1px] dark:border-[0px]
     }
 
     .experienceLi {
-        @apply border-l-2 bg-transparent dark:hover:bg-bgLight hover:bg-hoverColorLight py-3 text-sm cursor-pointer duration-300 px-8 font-medium border-l-hoverColor text-textDark
+        @apply border-l-2 bg-transparent dark:hover:bg-bgLight hover:bg-hoverLight py-3 text-sm cursor-pointer duration-300 px-8 font-medium border-l-hoverColor text-textDark
     }
 
     .bgOpacity {
@@ -36,7 +40,7 @@
     }
 
     .iconLink{
-        @apply w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-yellow-200 cursor-pointer hover:-translate-y-2 transition-all duration-300;
+        @apply borderLine border-textHolo/20 w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center dark:hover:text-yellow-200 hover:text-textPlant cursor-pointer hover:-translate-y-2 transition-all duration-300;
     }
 
     .hoverTitle {
@@ -52,6 +56,10 @@
     }
 
     .hoverParagraph {
-        @apply hover:text-slate-200 hover:-translate-y-0.5 duration-500
+        @apply hover:text-teal-900 text-teal-950 dark:hover:text-white dark:text-textDark hover:-translate-y-0.5 duration-500
+    }
+
+    .spanTag {
+        @apply dark:text-textGreen text-textPlant
     }
 }

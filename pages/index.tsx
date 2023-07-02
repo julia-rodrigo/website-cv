@@ -10,6 +10,9 @@ import Experience from '@/app/sections/Experience/Experience'
 import Project from '@/app/sections/Projects/Project'
 import Contact from '@/app/sections/Contact/Contact'
 import Footer from '@/app/components/Footer'
+import Stars from '@/app/components/Animations/Stars'
+import StarField from '@/app/components/background/StarField'
+import StarJumps from '@/app/components/background/StarJumps'
 
 
 export default function Home() {
@@ -26,7 +29,12 @@ export default function Home() {
         <link rel="icon" href="/assets/me/me.png" />
 
       </Head>
-      <main className='w-full h-screen font-bodyFont dark:bg-bodyColor bg-white text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'>
+      <main className='relative w-full h-screen font-bodyFont dark:bg-bodyColor bg-bgColor text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'>
+        <div className='dark:hidden inline-block absolute w-full h-screen'>
+          <StarField />
+          <StarJumps />
+        </div>
+
         <Navbar />
         <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
           <motion.div
@@ -39,7 +47,7 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className='h-[88vh] mx-auto p-4'>
+          <div className='h-[88vh] mx-auto p-4 z-10'>
             <Banner />
             <About />
             <Experience />
@@ -53,10 +61,11 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
             
-            className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0'
+            className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0 mr-5 '
           >
             <RightSide />
           </motion.div>
+
         </div>
       </main>
     </>

@@ -7,13 +7,20 @@ import { AiFillThunderbolt } from 'react-icons/ai'
 
 
 import about_data from "../../../constants/informations/About"
+import StarField from '@/app/components/background/StarField'
+import StarJumps from '@/app/components/background/StarJumps'
 
 const About = () => {
   return (
     <section
         id="about"
-        className='max-w-containerSmall mx-auto py-10 flex flex-col gap-8'
+        className='relative max-w-containerSmall mx-auto py-10 flex flex-col gap-8'
     >
+
+      <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
+        <StarJumps />
+      </div>
+
       <SectionTitle titleNo='01. ' title="About Me" />
 
       <div className='flex flex-col lgl:flex-row gap-16'>
@@ -22,14 +29,14 @@ const About = () => {
                 This is my fouth year programming, and I have touched on many programming languages throughout my years in University.
             </p>
             <p className='hoverParagraph'>
-                In first year, I learnt <span className='text-textGreen'>Java</span> from fulfilling minor assignments. Later, I was exposed to 
-                <span className='text-textGreen'> html and javascript</span>.
-                I used <span className='text-textGreen'>React.js framework and Firebase Database</span> for making web applications for the next two years. 
+                In first year, I learnt <span className='spanTag'>Java</span> from fulfilling minor assignments. Later, I was exposed to 
+                <span className='spanTag'> html and javascript</span>.
+                I used <span className='spanTag'>React.js framework and Firebase Database</span> for making web applications for the next two years. 
             </p>
             <p className='hoverParagraph'>
-                This year, I tried something new. I created a short <span className='text-textGreen'> 2.5D pixel RPG game on Godot</span>, 
+                This year, I tried something new. I created a short <span className='spanTag'> 2.5D pixel RPG game on Godot</span>, 
                 involving monster catching and character interaction, as part of my year-long project for university. 
-                Now I moved back into web life, sharing you this CV made with <span className='text-textGreen'>typescript and using react-next-app</span> framework.
+                Now I moved back into web life, sharing you this CV made with <span className='spanTag'>typescript and using react-next-app</span> framework.
             </p>
             <p className='hoverParagraph'>
                Here are technologies I am familiar with:
@@ -41,7 +48,7 @@ const About = () => {
                   key={id}
                 >
                   <span 
-                    className='text-textGreen'
+                    className='spanTag'
                   >
                     {icon}
                   </span> 
@@ -55,7 +62,7 @@ const About = () => {
           <div className="w-full -left-6 -top-6 rounded-lg">
             <div className='relative w-full h-full lgl:h-full z-20 flex pl-10 lgl:pl-0 '>
               <Image 
-                className='z-10 rounded-lg object-cover'
+                className='z-10 rounded-lg object-cover hidden lgl:inline-flex'
                 src={me2}
                 alt="profileImage"
               />

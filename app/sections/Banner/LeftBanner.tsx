@@ -25,7 +25,7 @@ const LeftBanner = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{  duration: 0.5, delay: 0.6 }}
 
-                className='text-lg font-titleFont tracking-wide dark:text-textGreen text-textDarker'
+                className='text-lg font-titleFont tracking-wide dark:text-textGreen text-textWall'
 
             >
                 Hi, my name is
@@ -37,7 +37,7 @@ const LeftBanner = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{  duration: 0.5, delay: 0.7 }}
 
-                  className="text-5xl font-bold dark:text-white text-textDarker lgl:text-6xl flex flex-col"
+                  className="text-5xl font-bold dark:text-white text-bodyColor lgl:text-6xl flex flex-col"
               >
                 <span className='text-designColor capitalize'>Julia Rodrigo</span>
               </motion.h1>
@@ -48,10 +48,10 @@ const LeftBanner = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{  duration: 0.5, delay: 0.8 }}
 
-                className='text-4xl font-bold dark:text-white text-textDarker'
+                className='text-4xl font-bold dark:text-white text-bodyColor'
             >
               a {}
-              <span className='dark:text-textGreen dark:hover:text-yellow-200 duration-300 text-[#a3471d] hover:text-[#eeeeee]'>{text}</span>
+              <span className='dark:text-textGreen dark:hover:text-yellow-200 duration-300 text-hoverDark hover:text-textBright'>{text}</span>
               <Cursor
                 cursorStyle="|"
                 cursorColor='pink'
@@ -63,7 +63,7 @@ const LeftBanner = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{  duration: 0.5, delay: 0.9 }}
 
-                className='text-base md:max-w-[650px] text-textLight font-medium tracking-wide hover:text-white'
+                className='text-base md:max-w-[650px] dark:text-textLight text-black font-medium tracking-wide'
             >
               I am a creative computer science student with 2 years experience in web development and 1 year experience in game development, 
               eager to improve my skills and building new projects with individuals (like you !).
@@ -80,7 +80,7 @@ const LeftBanner = () => {
             
         >
             <div>
-              <h2 className="text-base uppercase font-titleFont mb-4 hoverParagraph">
+              <h2 className="text-base uppercase font-titleFont mb-4 hoverParagraph text-hoverDark">
                 Find me on
               </h2>
               <div className="flex gap-4">
@@ -96,7 +96,7 @@ const LeftBanner = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-base uppercase font-titleFont mb-4 hoverParagraph">
+              <h2 className="text-base uppercase font-titleFont mb-4 hoverParagraph text-hoverDark">
                 BEST SKILL ON
               </h2>
               <div className="flex gap-4">

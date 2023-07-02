@@ -37,12 +37,34 @@ module.exports = {
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
         bgLight: "#112240",
-        bodyColorLight: "#ffffff",
+        
+        bgColor: "#ffffff",
+        bodyColorLight: "#224d5a",
+        textWall: "#224d5a",
+        hoverDark: "#36866b",
+        textPlant: "#63be47",
+        textBright: "#99c9d1",
+        textHolo: "#5a2222",
+        
+        hoverLight: "#eeeeee",
+        
         sideColor: "#eff6ff",
-        hoverColorLight: "#eeeeee",
-        textDarker: "#123123",
-        textHolo: "#231323",
-        textBright: "#223443",
+        textDarker: "#224d5a",
+      },
+      animation: {
+        "spin-slow": "spin 100s linear infinite",
+        "reverse-spin": "reverse-spin 15s linear infinite",
+      },
+      keyframes: {
+        "reverse-spin": {
+          from : {
+            transform: "rotate(360deg)"
+          }
+        }
+      },
+      boxShadow: {
+        greenShadow: "0px 0px 188px -14px rgba(237, 255, 32, 1)",
+        testShadow: "11px 0px 13px -15px rgba(0, 0, 0, 1)",
       }
     },
   },

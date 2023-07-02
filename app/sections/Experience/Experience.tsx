@@ -11,6 +11,7 @@ import Achievements from './entries/Achievements'
 // {experience_data["experience"].map(({ id, company, title, where, when, des }) => (
 
 import experience_data from "../../../constants/informations/Experience"
+import StarField from '@/app/components/background/StarField'
 
 interface companyProps {
     "id": number,
@@ -144,8 +145,11 @@ const Experience = () => {
   return (
     <section
         id="resume"
-        className='max-w-containerSmall mx-auto py-10 lgl:py-24 px-4'
+        className='relative max-w-containerSmall mx-auto py-10 lgl:py-24 px-4'
     >
+        <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
+          <StarField />
+        </div>
         <SectionTitle title='Resume' titleNo='02'/>
         <div className='w-full mt-10 flex flex-col md:flex-row lg:flex-row gap-16'>
             <ul className='md:w-80 flex flex-col'>
