@@ -5,7 +5,7 @@ import { hills } from '@/public/assets/index'
 const Hills = () => {
   return (
     <div>
-        <Lottie animationData={hills}/>
+        <Lottie animationData={hills} className='overflow-hidden rounded-xl'/>
     </div>
   )
 }

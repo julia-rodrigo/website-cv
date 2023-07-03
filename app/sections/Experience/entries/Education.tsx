@@ -47,17 +47,17 @@ const Education = ({ id, title, where, when, year }: educationProps) => {
 
         className="w-full"
     >
-        <h3 className="flex gap-1 font-medium text-xl font-titleFont">
+        <h3 className="flex gap-1 font-medium text-xl font-titleFont dark:text-textLight text-bodyColor">
             {title}
             <span
-                className="text-textGreen tracking-wide"
+                className="dark:text-textGreen tracking-wide text-textPlant"
             >
                 {where}
             </span>
         </h3>
 
         <p 
-            className="text-sm mt-1 font-medium text-textDark hover:text-white duration-300"
+            className="text-sm mt-1 font-medium dark:text-textDark text-bodyColor dark:hover:text-white duration-300"
         >
             {when}
         </p>
@@ -66,7 +66,7 @@ const Education = ({ id, title, where, when, year }: educationProps) => {
             <ul className='md:w-35 flex flex-row lg:flex-col'>
 
                 {year.map(( results ) => (
-                    <li className={`${results.grade == entry ? "border-t-pink-200 border-t-2 border-l-0 text-pink-200 experienceLi lg:border-l-2 lg:border-l-pink-200 lg:border-t-0 lg:text-pink-200" : "border-t-hoverColor border-t-2 border-l-0 text-textDark experienceLi lg:border-l-hoverColor lg:border-l-2 lg:border-t-0 "} `} key={results.id} onClick={() => handleResults(results.grade)} >
+                    <li className={`${results.grade == entry ? "dark:innerExperienceLi text-bodyColor selectedLi bg-opacity-40 experienceLi bg-red-100" : "experienceLi"} `} key={results.id} onClick={() => handleResults(results.grade)} >
                         {results.title}
                     </li>
                 ))}

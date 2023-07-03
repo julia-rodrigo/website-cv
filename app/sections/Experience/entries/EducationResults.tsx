@@ -17,7 +17,7 @@ const EducationResults = (results: ResultProps) => {
 
     // console.log(results)
   return (
-    <div className='w-full lgl:w-2/3 pr-7 lg:pr-0 text-base text-textDark font-medium flex flex-col gap-4'>
+    <div className='w-full lgl:w-2/3 pr-7 lg:pr-0 text-base dark:text-textDark text-bodyColor font-medium flex flex-col gap-4'>
         <ul className='max-w-[420px] text-sm font-titleFont grid grid-cols gap-2'>
             {results["results"].map(({ id, name, marks}: Results) => (
             <li 
@@ -26,13 +26,13 @@ const EducationResults = (results: ResultProps) => {
             >
                 <div className='flex items-center gap-2'>
                     <span 
-                    className='text-textGreen'
+                    className='dark:text-textGreen text-textPlant'
                     >
                     {<TiArrowForward />}
                     </span> 
                     {name}
                 </div>
-                <div className='text-pink-200 hover:-translate-y-0.5 duration-300'>
+                <div className='dark:text-pink-200 hover:-translate-y-0.5 duration-300 text-textPlant dark:hover:font-medium hover:font-light'>
                     {marks}
                 </div>
 

@@ -17,7 +17,7 @@ const LeftBanner = () => {
       });
 
   return (
-    <div className='pt-10 flex flex-col gap-20'>
+    <div className='pt-10 flex flex-col gap-20 z-20'>
           <div className='flex flex-col gap-3'>
             <motion.h4 
                 

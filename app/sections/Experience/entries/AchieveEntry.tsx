@@ -17,17 +17,17 @@ const AchieveEntry = ({ name, when, des } : EntryProps) => {
 
         className="w-full min-w-[300px]"
     >
-        <h3 className="flex gap-1 font-medium text-xl font-titleFont">
+        <h3 className="flex gap-1 font-medium text-xl font-titleFont dark:text-textLight text-bodyColor">
             {name}
         </h3>
 
         <p 
-            className="text-sm mt-1 font-medium text-textGreen"
+            className="text-sm mt-1 font-medium dark:text-textGreen text-textPlant"
         >
             {when}
         </p>
 
-        <p className="text-sm mt-7 text-textDark w-full flex flex-col lg:flex-row gap-16 hoverParagraph" >{des}</p>
+        <p className="text-sm mt-7 dark:text-textDark text-bodyColor w-full flex flex-col lg:flex-row gap-16 hoverParagraph" >{des}</p>
 
     </motion.div>
     

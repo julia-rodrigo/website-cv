@@ -38,7 +38,7 @@ const Achievements = () => {
       <div className='w-full flex flex-col lg:flex-row gap-16'>
           <ul className='md:min-w-[290px] flex flex-col'>
               {experience_data["achievements"].map(( goal ) => (
-                  <li className={`${goal.id == entry.id ? "border-l-pink-200 text-pink-200 experienceLi" : "experienceLi"} `} key={goal.id} onClick={() => handleGoal(goal)} >
+                  <li className={`${goal.id == entry.id ? "dark:border-l-pink-200 dark:text-pink-200 text-bodyColor selectedLi bg-opacity-40 experienceLi bg-red-100" : "experienceLi"} `} key={goal.id} onClick={() => handleGoal(goal)} >
                       {goal.name}
                   </li>
               ))}

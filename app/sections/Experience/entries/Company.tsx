@@ -18,17 +18,17 @@ const Company = ({ title, where, when, des }: companyProps) => {
 
         className="w-full"
     >
-        <h3 className="flex gap-1 font-medium text-xl font-titleFont">
+        <h3 className="flex gap-1 font-medium text-xl font-titleFont dark:text-textLight text-bodyColor">
             {title}
             <span
-                className="text-textGreen tracking-wide"
+                className="dark:text-textGreen text-textPlant tracking-wide"
             >
                 {where}
             </span>
         </h3>
 
         <p 
-            className="text-sm mt-1 font-medium text-textDark hover:text-pink-200 duration-300"
+            className="text-sm mt-1 font-medium dark:text-textDark dark:hover:text-pink-200 duration-300 text-bodyColor"
         >
             {when}
         </p>
@@ -36,7 +36,7 @@ const Company = ({ title, where, when, des }: companyProps) => {
         <ul className="mt-6 flex flex-col gap-3">
             {
                 des.map((sentence: string) => (
-                <li className="text-base flex gap-2 text-textDark hoverParagraph" key={des.indexOf(sentence)}>
+                <li className="text-base flex gap-2 dark:text-textDark hoverParagraph" key={des.indexOf(sentence)}>
                     <span
                         className="text-textGreen mt-1"
                     >

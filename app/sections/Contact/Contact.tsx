@@ -15,8 +15,7 @@ const Contact = () => {
 }
 
   const handleLoop = async () => {
-    await timeout(1300);
-
+    await timeout(5500);
     setLoop(false)
   }
 
@@ -42,7 +41,7 @@ const Contact = () => {
 
       <div className='dark:hidden inline-block max-w-[200px] max-h-[200px] relative items-center justify-center mt-10 mb-5'>
         <Lottie className='absolute w-full overflow-hidden rounded-full' animationData={city} />
-        <Lottie className={`relative w-full overflow-hidden rounded-full ${loop ? 'animate-spin 3s' : 'animate-none'}`} animationData={whale} loop={loop} onLoopComplete={handleLoop} onClick={() => setLoop(true)}/>
+        <Lottie className={`relative w-full overflow-hidden rounded-full ${loop ? 'animate-spin-ease' : 'animate-none'}`} animationData={whale} loop={loop} onLoopComplete={handleLoop} onClick={() => setLoop(true)}/>
       </div>
 
       <a href='mailto:juliarodrigo2301@gmail.com' className='dark:pointer-events-auto pointer-events-none'>

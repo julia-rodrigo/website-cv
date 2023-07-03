@@ -152,21 +152,21 @@ const Experience = () => {
         </div>
         <SectionTitle title='Resume' titleNo='02'/>
         <div className='w-full mt-10 flex flex-col md:flex-row lg:flex-row gap-16'>
-            <ul className='md:w-80 flex flex-col'>
+            <ul className='md:w-80 flex flex-col '>
 
                 {experience_data["experience"].map(( comp ) => (
-                    <li className={`${comp.name == entry.name ? "border-l-textGreen text-textGreen experienceLi" : "experienceLi"} `} key={comp.id} onClick={() => handleCompany(comp)} >
+                    <li className={`${comp.name == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor bg-opacity-40 selectedLi experienceLi bg-purple-100" : "experienceLi"} `} key={comp.id} onClick={() => handleCompany(comp)} >
                         {comp.name}
                     </li>
                 ))}
 
                 {experience_data["education"].map((institute) => (
-                    <li className={`${institute.name == entry.name ? "border-l-textGreen text-textGreen experienceLi" : "experienceLi"} `} key={institute.id} onClick={() => handleEducation(institute)} >
+                    <li className={`${institute.name == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor bg-opacity-40 selectedLi experienceLi bg-purple-100" : "experienceLi"} `} key={institute.id} onClick={() => handleEducation(institute)} >
                         {institute.name}
                     </li>
                 ))}
 
-                <li className={`${"Achievements" == entry.name ? "border-l-textGreen text-textGreen experienceLi" : "experienceLi"} `} onClick={() => handleAchievements()} >
+                <li className={`${"Achievements" == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor selectedLi bg-opacity-40 experienceLi bg-purple-100" : "experienceLi"} `} onClick={() => handleAchievements()} >
                     Achievements
                 </li>
             </ul>
