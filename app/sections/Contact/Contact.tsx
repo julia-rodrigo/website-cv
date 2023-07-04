@@ -65,11 +65,7 @@ const Contact = () => {
         <button className='w-40 h-14 uppercase font-medium mt-6 font-titleFont text-sm tracking-wider rounded-md buttonStyle'>
             Say Hello
         </button>
-      </a>  
-      <div className="curveRoad">
-        Curve
-      </div>
-      
+      </a>
     </section>
   )
 }

@@ -107,5 +107,4 @@
     .buttonStyle {
         @apply duration-300 dark:text-textGreen dark:bg-transparent dark:hover:bg-hoverColor dark:border border-[1.5px] dark:border-textGreen border-bodyColor hover:bg-yellow-200/40 hover:font-bold hover:text-[15px] dark:hover:text-sm dark:hover:font-normal text-bodyColor borderLine
     }
-
 }

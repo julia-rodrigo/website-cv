@@ -173,7 +173,7 @@ const Menu = ({ setShowMenu, handleScroll } : menuProps) => {
                 href="mailto:juliarodrigo2301@gmail.com"
             >
                 <p className='hover:text-pink-200'>
-                    reactbd.proton.me
+                    @juliarodrigo_portfolio
                 </p>
             </motion.a>
             <motion.div
