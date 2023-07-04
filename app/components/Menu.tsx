@@ -7,6 +7,7 @@ import { MdArrowForward } from "react-icons/md"
 import { TbBrandGithub, TbMail } from 'react-icons/tb';
 import { SlSocialLinkedin } from 'react-icons/sl';
 import Ruby from './Animations/Ruby';
+import Book from './Animations/Book';
 
 interface menuProps {
     setShowMenu: any,
@@ -31,8 +32,8 @@ const Menu = ({ setShowMenu, handleScroll } : menuProps) => {
         <motion.div
             initial={{ x:20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.1 }}
-            className='w-[80%] h-full overflow-y-scroll scrollbar scrollbar-none bg-[#112240] flex flex-col items-center px-4 py-10 relative'
+            transition={{ duration: 0.1 }} // bg-[#194451]
+            className='w-[80%] h-full overflow-y-scroll scrollbar scrollbar-none dark:bg-[#112240] bg-[#135a70] flex flex-col items-center px-4 py-10 relative'
         >
             <MdArrowForward 
                 onClick={() => setShowMenu(false)}
@@ -179,9 +180,9 @@ const Menu = ({ setShowMenu, handleScroll } : menuProps) => {
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.3, ease: "easeIn" }}
-                className='pt-5'
             >
-                <Ruby />
+                {/* <Ruby /> */}
+                <Book />
             </motion.div>
         </motion.div>
     </div>

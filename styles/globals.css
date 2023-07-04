@@ -68,11 +68,11 @@
     }
 
     .innerExperienceLi {
-        @apply border-t-pink-200 border-t-2 border-l-0 text-pink-200 lg:border-l-2 lg:border-l-pink-200 lg:border-t-0 lg:text-pink-200
+        @apply border-t-pink-200 border-t-2 border-l-0 text-pink-200 lg:border-l-2 lg:border-l-pink-200 lg:border-t-0 lg:text-pink-200 py-3 text-sm cursor-pointer duration-300 px-8 font-medium
     }
     
     .unselectedInnerLi {
-        @apply border-t-hoverColor border-t-2 border-l-0 text-textDark lg:border-l-hoverColor lg:border-l-2 lg:border-t-0
+        @apply border-hoverColor border-t-2  text-textDark lg:border-l-2 lg:border-t-0 py-3 text-sm cursor-pointer duration-300 px-8 font-medium
     }
 
     .underlineHover {
@@ -105,6 +105,7 @@
     }
 
     .buttonStyle {
-        @apply dark:text-textGreen dark:bg-transparent dark:hover:bg-hoverColor dark:border dark:border-textGreen border-textHolo/20 bg-hoverColor hover:text-textPlant duration-300 borderLine
+        @apply duration-300 dark:text-textGreen dark:bg-transparent dark:hover:bg-hoverColor dark:border border-[1.5px] dark:border-textGreen border-bodyColor hover:bg-yellow-200/40 hover:font-bold hover:text-[15px] dark:hover:text-sm dark:hover:font-normal text-bodyColor borderLine
     }
+
 }

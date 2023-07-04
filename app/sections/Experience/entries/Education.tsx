@@ -66,7 +66,7 @@ const Education = ({ id, title, where, when, year }: educationProps) => {
             <ul className='md:w-35 flex flex-row lg:flex-col'>
 
                 {year.map(( results ) => (
-                    <li className={`${results.grade == entry ? "dark:innerExperienceLi text-bodyColor selectedLi bg-opacity-40 experienceLi bg-red-100" : "experienceLi"} `} key={results.id} onClick={() => handleResults(results.grade)} >
+                    <li className={`${results.grade == entry ? "dark:innerExperienceLi text-bodyColor selectedLi bg-opacity-40 experienceLi bg-red-100" : "innerExperienceLi unselectedInnerLi"} `} key={results.id} onClick={() => handleResults(results.grade)} >
                         {results.title}
                     </li>
                 ))}

@@ -46,6 +46,7 @@ import stars from './animations/lottie-files/stars.json'
 import hills from './animations/lottie-files/hills.json'
 import city from './animations/lottie-files/city.json'
 import whale from './animations/lottie-files/whale.json'
+import book from './animations/lottie-files/book.json'
 
 import ruby1 from './animations/ruby/1.gif'
 import ruby2 from './animations/ruby/2.gif'
@@ -99,6 +100,7 @@ export {
     hills,
     city,
     whale,
+    book,
     logo,
     bannerImg,
     drawing,

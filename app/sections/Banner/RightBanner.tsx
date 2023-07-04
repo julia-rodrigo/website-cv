@@ -2,7 +2,7 @@ import React from 'react'
 import { paper_hill } from '@/public/assets/index'
 import Image from 'next/image'
 import Ruby from '@/app/components/Animations/Ruby'
-import Stars from '@/app/components/Animations/Hills'
+import Hills from '@/app/components/Animations/Hills'
 
 const RightBanner = () => {
   return (
@@ -10,7 +10,7 @@ const RightBanner = () => {
       <div className='w-full lgl:w-1/3 h-1/3 relative group '>
           <div className="hidden dark:inline-block absolute w-full -left-6 -top-6 rounded-lg items-center pl-20">
               <div className='w-full h-full relative z-20 flex pl-6 lgl:pl-0'>
-                <Image 
+                <Image
                   className='hidden rounded-lg object-cover lgl:block duration-300'
                   src={ paper_hill }
                   alt="profileImage"
@@ -22,7 +22,7 @@ const RightBanner = () => {
               <Ruby />
           </div>  
           <div className="hidden dark:hidden lgl:inline-block absolute w-full -left-6 -top-6 rounded-lg items-center pl-20">
-              <Stars />
+              <Hills />
           </div>        
       </div>
   )
