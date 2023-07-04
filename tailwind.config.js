@@ -55,10 +55,20 @@ module.exports = {
         "spin-slow": "spin 100s linear infinite",
         "reverse-spin": "reverse-spin 15s linear infinite",
         "spin-ease": "reverse-spin 5s ease-in-out",
+        "border": "spin 4s linear infinite"
       },
       keyframes: {
         "reverse-spin": {
           from : {
+            transform: "rotate(360deg)"
+          }
+        },
+
+        "border": {
+          from : {
+            transform: "rotate(0deg)"
+          },
+          to : {
             transform: "rotate(360deg)"
           }
         }

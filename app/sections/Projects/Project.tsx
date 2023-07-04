@@ -31,7 +31,7 @@ const Project = () => {
       </div>
 
       <SectionTitle titleNo='03. ' title="Projects" />
-        <div className='w-full flex flex-col items-center justify-center mt-10 gap-5'>
+        <div className='w-full flex flex-col items-center justify-center mt-10 gap-5 '>
         {project_data.map((project, i) => (
           <div className='pb-10'>
             <ProjectCard 
@@ -63,8 +63,8 @@ const Project = () => {
                   </div>
 
                     <div className='w-full flex flex-col items-center'>
-                        <h2 className='text-3xl font-titleFont font-semibold hover:text-white'>Other Projects</h2>
-                        <p className='text-sm font-titleFont text-textGreen'>view the archive</p>
+                        <h2 className='text-3xl font-titleFont font-semibold dark:hover:text-white dark:text-textLight text-bodyColor'>Other Projects</h2>
+                        <p className='text-sm font-titleFont dark:text-textGreen underlineHover text-bodyColor'>view the archive</p>
                     </div>
                     <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
                         {archive_data.map((archive, i) => (
@@ -96,7 +96,7 @@ const Project = () => {
 
             <button
                 onClick={() => showMore ? setShowMore(false) : setShowMore(true)}
-                className='w-36 h-12 rounded-md text-textGreen text-[13]px border border-textGreen hover:bg-hoverColor duration-300'
+                className='w-36 h-12 rounded-md buttonStyle text-[13px]'
             >{showMore ? "Show Less" : "Show More"}</button>
         </div>
     </section>

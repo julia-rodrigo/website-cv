@@ -16,7 +16,7 @@
     }
 
     .borderLine {
-        @apply border-dashed border-[1px] dark:border-[0px]
+        @apply border-dashed border-[1px] dark:border-[0px] dark:border-solid
     }
 
     .experienceLi {
@@ -48,7 +48,7 @@
     }
 
     .hoverTitle::after {
-        @apply absolute content-[''] bg-textGreen h-[2px] w-[0%] right-0 -bottom-1 rounded-xl duration-300;
+        @apply absolute content-[''] dark:bg-textGreen h-[2px] w-[0%] right-0 -bottom-1 rounded-xl duration-300;
     }
 
     .hoverTitle:hover:after {
@@ -56,7 +56,7 @@
     }
 
     .hoverParagraph {
-        @apply hover:text-[16.25px] dark:hover:text-base hover:font-semibold dark:hover:font-medium text-bodyColor dark:hover:text-white dark:text-textDark hover:-translate-y-0.5 duration-1000
+        @apply hover:text-[16.25px] hover:font-semibold dark:hover:font-medium text-bodyColor dark:hover:text-white dark:text-textDark hover:-translate-y-0.5 duration-1000
     }
 
     .spanTag {
@@ -73,5 +73,38 @@
     
     .unselectedInnerLi {
         @apply border-t-hoverColor border-t-2 border-l-0 text-textDark lg:border-l-hoverColor lg:border-l-2 lg:border-t-0
+    }
+
+    .underlineHover {
+        @apply dark:no-underline hover:underline sm:no-underline underline underline-offset-8 decoration-1
+    }
+
+    .borderEffect {
+        @apply relative 
+        bg-opacity-40 bg-transparent object-cover overflow-hidden rounded-lg
+    }
+
+    .borderEffect::before {
+        @apply content-[''] sm:absolute static inset-x-[40%] -inset-y-[200%] 
+        bg-[linear-gradient(180deg,_#ffedd5_49.9%,_#f3e8ff_50%)]
+        transition-[.5s] duration-500 animate-border dark:static
+        
+    }
+
+    .borderEffect:hover::before {
+        @apply -inset-x-[100%] -inset-y-[100%] bg-opacity-40
+    }
+
+    .borderEffect::after {
+        @apply content-[''] absolute dark:bg-bodyColor bg-white
+        inset-x-[3px] inset-y-[3px] rounded-lg
+    }
+
+    .borderContent {
+        @apply absolute rounded-lg z-10
+    }
+
+    .buttonStyle {
+        @apply dark:text-textGreen dark:bg-transparent dark:hover:bg-hoverColor dark:border dark:border-textGreen border-textHolo/20 bg-hoverColor hover:text-textPlant duration-300 borderLine
     }
 }

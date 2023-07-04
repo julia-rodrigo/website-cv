@@ -8,7 +8,7 @@ const project_data = [
         "des": 
             <p>
                 A one page Amazon shopping system on 
-                <span className='text-textGreen'> React </span>
+                <span className='font-bold dark:font-thin dark:text-textGreen'> React </span>
                 with Firebase database and hosting. You can add goods to your basket.
             </p>,
         "image_path": amazon,
@@ -37,7 +37,7 @@ const project_data = [
         "title": "Godot Ruby RPG",
         "des": 
             <p>
-                A <span className='text-textGreen'> pokemon-like rpg</span> game in Godot with some character sprites I made. 
+                A <span className='font-bold dark:font-thin dark:text-textGreen'> pokemon-like rpg</span> game in Godot with some character sprites I made. 
                 There is no variety in the monster sprites as I focused on the inner mechanics of the game. 
                 You complete three quests and build a team to complete the game.
             </p>,
