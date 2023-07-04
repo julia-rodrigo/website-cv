@@ -154,14 +154,14 @@ const Experience = () => {
         <div className='w-full mt-10 flex flex-col md:flex-row lg:flex-row gap-16'>
             <ul className='md:w-80 flex flex-col '>
 
-                {experience_data["experience"].map(( comp ) => (
-                    <li className={`${comp.name == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor bg-opacity-40 selectedLi experienceLi bg-purple-100" : "experienceLi"} `} key={comp.id} onClick={() => handleCompany(comp)} >
+                {experience_data["experience"].map(( comp, i ) => (
+                    <li className={`${comp.name == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor bg-opacity-40 selectedLi experienceLi bg-purple-100" : "experienceLi"} `} key={i} onClick={() => handleCompany(comp)} >
                         {comp.name}
                     </li>
                 ))}
 
-                {experience_data["education"].map((institute) => (
-                    <li className={`${institute.name == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor bg-opacity-40 selectedLi experienceLi bg-purple-100" : "experienceLi"} `} key={institute.id} onClick={() => handleEducation(institute)} >
+                {experience_data["education"].map((institute, i) => (
+                    <li className={`${institute.name == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor bg-opacity-40 selectedLi experienceLi bg-purple-100" : "experienceLi"} `} key={i} onClick={() => handleEducation(institute)} >
                         {institute.name}
                     </li>
                 ))}

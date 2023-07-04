@@ -1,7 +1,6 @@
 import React from 'react'
 import { RxOpenInNewWindow } from "react-icons/rx"
 import { FaRegFolder } from "react-icons/fa"
-import { motion } from 'framer-motion'
 
 interface Props {
     title: string,

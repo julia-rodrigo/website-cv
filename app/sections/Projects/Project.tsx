@@ -32,21 +32,19 @@ const Project = () => {
 
       <SectionTitle titleNo='03. ' title="Projects" />
         <div className='w-full flex flex-col items-center justify-center mt-10 gap-5 '>
-        {project_data.map((project, i) => (
-          <div className='pb-10'>
-            <ProjectCard 
-                key = {i}
-                id = {i}
-                title = {project.title}
-                des = {project.des}
-                image_path = {project.image_path}
-                git_link = {project.git_link}
-                web_link = {project.web_link}
-                tags = {project.tags}
-                video_link = {project.video_link}
-            />
-          </div>
-        ))}
+          {project_data.map((project, i) => (
+            <div className='pb-10' key={i}>
+              <ProjectCard 
+                  title = {project.title}
+                  des = {project.des}
+                  image_path = {project.image_path}
+                  git_link = {project.git_link}
+                  web_link = {project.web_link}
+                  tags = {project.tags}
+                  video_link = {project.video_link}
+              />
+            </div>
+          ))}
         </div>
 
         <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
@@ -79,7 +77,7 @@ const Project = () => {
                               des = {archive.des}
                               tags = {archive.tags}
                               link = {archive.git_link}
-                          />
+                            />
                         </motion.div>
                     ))}
                     </div>

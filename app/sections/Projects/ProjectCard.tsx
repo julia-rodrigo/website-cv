@@ -5,7 +5,6 @@ import { RxOpenInNewWindow } from 'react-icons/rx'
 import { TbBrandGithub } from 'react-icons/tb'
 
 interface projectData {
-    "id": number,
     "title": string,
     "des": any,
     "image_path": StaticImageData,
@@ -15,7 +14,7 @@ interface projectData {
     "video_link": string
 }
 
-const ProjectCard = ({id, title, des, image_path, git_link, web_link, tags, video_link}: projectData) => {
+const ProjectCard = ({title, des, image_path, git_link, web_link, tags, video_link}: projectData) => {
   return (
     
         <div className='overflow-hidden flex flex-col mdl:flex-row gap-6 items-center justify-center'>
@@ -44,8 +43,8 @@ const ProjectCard = ({id, title, des, image_path, git_link, web_link, tags, vide
                     {des}
                 </div>
                 <ul className='text-xs md-text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark '>
-                    {tags.map((tag) => (
-                        <li key={id} className='dark:hover:text-yellow-200 hoverParagraph' >{tag}</li>
+                    {tags.map((tag, i) => (
+                        <li key={i} className='dark:hover:text-yellow-200 hoverParagraph' >{tag}</li>
                     ))}
                 </ul>
                 <div className='text-2xl flex gap-4'>

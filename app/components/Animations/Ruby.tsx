@@ -101,7 +101,7 @@ const Ruby = () => {
               <Image
                 src={ruby}
                 alt="ruby_images"
-                className='mx-10 sm:mx-0 cursor-pointer relative'
+                className='mx-10 sm:mx-0 cursor-pointer relative w-auto h-auto'
                 onClick={handleClick}
               />
             </div>

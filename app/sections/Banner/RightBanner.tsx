@@ -11,9 +11,10 @@ const RightBanner = () => {
           <div className="hidden dark:inline-block absolute w-full -left-6 -top-6 rounded-lg items-center pl-20">
               <div className='w-full h-full relative z-20 flex pl-6 lgl:pl-0'>
                 <Image
-                  className='hidden rounded-lg object-cover lgl:block duration-300'
+                  className='hidden rounded-lg object-cover lgl:block duration-300 w-auto h-auto'
                   src={ paper_hill }
                   alt="profileImage"
+                  priority
                 />
                 <div className='hidden lgl:inline-block absolute w-full h-full bg-bgColor dark:bg-bodyColor rounded-md top-0 left-0 group-hover:bg-transparent duration-300'>
                 </div>
