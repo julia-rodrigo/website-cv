@@ -1,8 +1,6 @@
 import React from 'react'
-
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { motion } from "framer-motion"
-
 import banner_data from "../../../constants/informations/Banner"
 import Deer from '@/app/components/Animations/Deer';
 

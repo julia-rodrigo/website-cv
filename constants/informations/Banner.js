@@ -1,7 +1,6 @@
 import { FaLinkedinIn, FaReact, FaJava } from 'react-icons/fa'
 import { SiGodotengine, SiGmail, SiTypescript } from 'react-icons/si'
 
-
 const banner_data = {
     "find_me": [
         {

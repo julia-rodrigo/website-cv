@@ -1,5 +1,4 @@
 import React from 'react'
-import { TiArrowForward } from 'react-icons/ti'
 import { motion } from "framer-motion";
 
 interface EntryProps {

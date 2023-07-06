@@ -1,4 +1,3 @@
-
 const experience_data = {
     "experience": [
         {

@@ -6,15 +6,10 @@ import { deer } from '@/public/assets'
 import { useTheme } from 'next-themes'
 
 const Deer = () => {
-
-    // const [ theme, setTheme ] = useState('Dark')
-
     const week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
     const [ mounted, setMounted ] = useState(false);
-
     const { theme, setTheme } = useTheme();
-
     const date = new Date();
     
     const handleTheme = () => {
@@ -22,7 +17,6 @@ const Deer = () => {
             setTheme('light');
         else
             setTheme('dark')
-        console.log(theme)
     }
 
     useEffect(() => {

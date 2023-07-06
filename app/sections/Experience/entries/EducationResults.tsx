@@ -13,9 +13,6 @@ interface Results {
 }
 
 const EducationResults = (results: ResultProps) => {
-    // console.log("in here educationResults:")
-
-    // console.log(results)
   return (
     <div className='w-full lgl:w-2/3 pr-7 lg:pr-0 text-base dark:text-textDark text-bodyColor font-medium flex flex-col gap-4'>
         <ul className='max-w-[420px] text-sm font-titleFont grid grid-cols gap-2'>

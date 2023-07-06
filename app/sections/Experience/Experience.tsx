@@ -5,11 +5,6 @@ import Company from './entries/Company'
 import Education from './entries/Education'
 import Achievements from './entries/Achievements'
 
-// id love to get in touch with you in the contacts
-// make ruby my logo
-
-// {experience_data["experience"].map(({ id, company, title, where, when, des }) => (
-
 import experience_data from "../../../constants/informations/Experience"
 import StarField from '@/app/components/background/StarField'
 
@@ -72,9 +67,6 @@ const Experience = () => {
     const [ education, setEducation ] = useState(false);
     const [ achievements, setAchievements ] = useState(false);
 
-
-    
-
     const turnOffAll = () => {
         setCompany(false);
         setEducation(false);
@@ -84,8 +76,6 @@ const Experience = () => {
     const handleCompany = ( comp: companyProps ) => {
         turnOffAll();
         setCompany(true);
-
-        console.log(comp.name)
         
         setEntry({
             "id": comp.id,
@@ -100,11 +90,7 @@ const Experience = () => {
 
     const handleEducation = ( institute: educationProps ) => {
         turnOffAll();
-        setEducation(true);
-
-        // console.log("HERE IN EXPERIENCE")
-
-        
+        setEducation(true);        
         setEntry({
             "id": institute.id,
             "name": institute.name,
@@ -114,10 +100,6 @@ const Experience = () => {
             "des": [ "" ],
             "year": institute.year,
         })
-
-        // console.log(entry)
-
-
     }
 
     const handleAchievements = () => {
@@ -167,7 +149,7 @@ const Experience = () => {
                 ))}
 
                 <li className={`${"Achievements" == entry.name ? " dark:border-textGreen dark:text-textGreen text-bodyColor selectedLi bg-opacity-40 experienceLi bg-purple-100" : "experienceLi"} `} onClick={() => handleAchievements()} >
-                    Achievements
+                    Others
                 </li>
             </ul>
 
@@ -196,12 +178,9 @@ const Experience = () => {
 
             {
                 achievements && 
-
                 <Achievements  
-                
                 />
             }
-
 
         </div>
     </section>

@@ -5,10 +5,6 @@ import { GiGamepad, GiGuitarBassHead } from "react-icons/gi"
 import { BsDatabaseFillCheck } from "react-icons/bs"
 import { SiAntdesign } from "react-icons/si"
 
-// title="App Development"
-//           des="ehheh hfadk fkd 'ladfka kjfd fhdk djk ajdf jfjkdhjfkdkj jkds fjkd fjksjkf jdk fsjkfdsjksk"
-//           icon={<AiFillAppstore />}
-
 const featureData = [
     {
         "id": 1,

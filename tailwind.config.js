@@ -45,10 +45,7 @@ module.exports = {
         textPlant: "#63be47",
         textBright: "#99c9d1",
         textHolo: "#5a2222",
-        
         hoverLight: "#eeeeee",
-        
-        sideColor: "#eff6ff",
         textDarker: "#224d5a",
       },
       animation: {

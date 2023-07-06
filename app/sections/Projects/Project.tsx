@@ -1,11 +1,5 @@
 import SectionTitle from '@/app/components/SectionTitle'
-import Image from 'next/image'
 import React, { useState } from 'react'
-import { paper_hill, clock_bell, desk, jump } from "@/public/assets/index"
-
-import { AiOutlineYoutube } from "react-icons/ai";
-import { TbBrandGithub } from 'react-icons/tb';
-import { RxOpenInNewWindow } from "react-icons/rx"
 import ProjectCard from './ProjectCard';
 
 import project_data from "../../../constants/informations/ProjectData"

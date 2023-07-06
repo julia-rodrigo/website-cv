@@ -2,12 +2,7 @@ import SectionTitle from '@/app/components/SectionTitle'
 import { me2, drawing } from '@/public/assets'
 import Image from 'next/image'
 import React from 'react'
-import { AiFillThunderbolt } from 'react-icons/ai'
-
-
-
 import about_data from "../../../constants/informations/About"
-import StarField from '@/app/components/background/StarField'
 import StarJumps from '@/app/components/background/StarJumps'
 
 const About = () => {

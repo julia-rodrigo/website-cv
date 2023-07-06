@@ -1,6 +1,5 @@
 import { ruby_rpg1, desk, amazon, theme_park, ruby_rpg3 } from "@/public/assets/index"
 
-
 const project_data = [
     {
         "id": 1,

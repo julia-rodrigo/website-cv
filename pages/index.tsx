@@ -10,16 +10,10 @@ import Experience from '@/app/sections/Experience/Experience'
 import Project from '@/app/sections/Projects/Project'
 import Contact from '@/app/sections/Contact/Contact'
 import Footer from '@/app/components/Footer'
-import Stars from '@/app/components/Animations/Stars'
 import StarField from '@/app/components/background/StarField'
 import StarJumps from '@/app/components/background/StarJumps'
 
-
 export default function Home() {
-// [#2b526b]
-// [#8ae7d0]
-// [#c5fff1]
-// #eff6ff
   return (
     <>
       <Head>
@@ -30,12 +24,14 @@ export default function Home() {
 
       </Head>
       <main className='relative w-full h-screen font-bodyFont dark:bg-bodyColor bg-bgColor text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'>
+        
         <div className='dark:hidden inline-block absolute w-full h-screen'>
           <StarField />
           <StarJumps />
         </div>
 
         <Navbar />
+
         <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
           <motion.div
           
@@ -63,9 +59,8 @@ export default function Home() {
             
             className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0 mr-5 '
           >
-            <RightSide />
+          <RightSide />
           </motion.div>
-
         </div>
       </main>
     </>

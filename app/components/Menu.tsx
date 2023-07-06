@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 import { MdArrowForward } from "react-icons/md"
 import { TbBrandGithub, TbMail } from 'react-icons/tb';
 import { SlSocialLinkedin } from 'react-icons/sl';
-import Ruby from './Animations/Ruby';
 import Book from './Animations/Book';
 
 interface menuProps {
