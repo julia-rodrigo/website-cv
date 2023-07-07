@@ -4,7 +4,7 @@ const experience_data = {
             "id": 1,
             "name": "F5 NGINX",
             "title": "Software Developer Intern",
-            "where": "@f5_NGINX",
+            "where": "@f5_NGINX_Cork",
             "when": "Feb 2022 - August 2022",
 
             "des": [

@@ -4,7 +4,7 @@ const archive_data = [
         "title": "Website CV",
         "des": "This is the CV you are viewing now. I have build this site from Noor Muhammad's tutorial in YouTube. I have added animations to make the project unique",
         "git_link": "https://github.com/julia-rodrigo/website-cv",
-        "tags": ["next.js", "LottieFiles", "typescript.js"], 
+        "tags": ["next.js", "tailwindCSS", "typescript.js"], 
     },
     {
         "id": 2,

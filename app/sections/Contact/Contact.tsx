@@ -53,7 +53,7 @@ const Contact = () => {
           </span>
           <div className="dark:bg-transparent bg-[#eeeeee]/30  rounded-lg p-4 dark:p-0">
             <p className='max-w-[600px] text-center dark:text-textDark text-bodyColor group-hover/rocket:hoverParagraph'>
-              I am currently searching for job opportunities that starts around September 2023 or earlier. 
+              I am currently searching for job opportunities that starts around September 2023 or much later. 
               Please let me know if you interested through my Gmail or LinkedIn and I will get back to you :) thanks!
             </p>
           </div>

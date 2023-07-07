@@ -64,6 +64,7 @@ const ruby = [
     "Light-mode took me 3 days! Do you like it?",
     "I gave up on making cursor animations",
     "Pixel and Lottiefile animations are lively!",
+    "Smiles goes for miles!",
 ]
 
 export default ruby;

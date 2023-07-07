@@ -45,7 +45,7 @@ const about_data = [
     },
     {
         "id": 8,
-        "title": "Firebase",
+        "title": "Firebase / SQL",
         "des": "",
         "icon": <AiFillThunderbolt />,
     },
@@ -63,7 +63,7 @@ const about_data = [
     },
     {
         "id": 11,
-        "title": "Vercel",
+        "title": "TailwindCSS",
         "des": "",
         "icon": <AiFillThunderbolt />,
     },
