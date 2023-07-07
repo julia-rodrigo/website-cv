@@ -7,7 +7,7 @@ import Deer from '@/app/components/Animations/Deer';
 const LeftBanner = () => {
 
     const [text] = useTypewriter ({
-        words: ["Full-Stack Developer.", "Backend Game Developer.", "Future Guitarist.", "Flexible Programmer."],
+        words: [" Full-Stack Developer.", "n Aspiring Game Developer.", " Front/Back-end Engineer.", " UI/UX Designer.", " Pixel Inspired Artist.", " Future Guitarist.", " Flexible Programmer."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 30,
@@ -48,7 +48,7 @@ const LeftBanner = () => {
 
                 className='text-4xl font-bold dark:text-white text-bodyColor'
             >
-              a {}
+              a
               <span className='dark:text-textGreen dark:hover:text-yellow-200 duration-300 text-hoverDark hover:text-textBright'>{text}</span>
               <Cursor
                 cursorStyle="|"

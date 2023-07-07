@@ -39,7 +39,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
 
-            className='hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0'
+            className='z-30 hidden mdl:inline-flex xl:w-32 w-20 h-full fixed left-0 bottom-0'
           >
             <LeftSide />
           </motion.div>
@@ -57,7 +57,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
             
-            className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0 mr-5 '
+            className='z-30 hidden mdl:inline-flex xl:w-32 w-[5.5rem] h-full fixed right-0 bottom-0 mr-5'
           >
           <RightSide />
           </motion.div>

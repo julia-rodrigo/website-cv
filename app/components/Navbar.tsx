@@ -42,7 +42,7 @@ function Navbar() {
             >
                 <Maya />
             </motion.div>
-            <div className='hidden mdl:inline-flex items-center gap-7 min-w-[560px]'>
+            <div className='hidden lg:inline-flex items-center gap-7 min-w-[560px]'>
                 <ul className='flex flex-row text-[13px] gap-7'>
                     <Link 
                         href="#home"
@@ -133,7 +133,7 @@ function Navbar() {
             {/* icon section */}
             <div 
                 onClick={() => setShowMenu(true)}
-                className='w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group'
+                className='w-6 h-5 flex flex-col justify-between items-center lg:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group z-30'
             >
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300'></span>
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300'></span>

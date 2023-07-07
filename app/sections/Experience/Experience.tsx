@@ -127,13 +127,13 @@ const Experience = () => {
   return (
     <section
         id="resume"
-        className='relative max-w-containerSmall mx-auto py-10 lgl:py-24 px-4'
+        className='relative max-w-containerSmall mx-auto py-10 lgl:py-24 px-4 mdl:px-20 xl:px-10'
     >
         <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
           <StarField />
         </div>
         <SectionTitle title='Resume' titleNo='02'/>
-        <div className='w-full mt-10 flex flex-col md:flex-row lg:flex-row gap-16'>
+        <div className='w-full mt-10 flex flex-col md:flex-row lg:flex-row md:gap-10 gap-16 lg:gap-16'>
             <ul className='md:w-80 flex flex-col '>
 
                 {experience_data["experience"].map(( comp, i ) => (

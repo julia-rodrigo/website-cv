@@ -26,17 +26,17 @@ const Menu = ({ setShowMenu, handleScroll } : menuProps) => {
     <div
         ref={(node) => (ref.current = node)}
         onClick={handleClick}
-        className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end'
+        className='z-30 absolute lg:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end'
     >
         <motion.div
             initial={{ x:20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.1 }} // bg-[#194451]
-            className='w-[80%] h-full overflow-y-scroll scrollbar scrollbar-none dark:bg-[#112240] bg-[#135a70] flex flex-col items-center px-4 py-10 relative'
+            className='w-[80%] h-full overflow-y-scroll scrollbar scrollbar-none dark:bg-[#112240] bg-[#135a70] flex flex-col justity-center items-center px-4 py-20 relative'
         >
             <MdArrowForward 
                 onClick={() => setShowMenu(false)}
-                className='text-3xl text-textGreen cursor-pointer hover:text-pink-200 absolute top-4 right-4'
+                className='text-3xl text-textGreen cursor-pointer hover:text-pink-200 absolute  top-4 right-4 mt-2'
             />
             <div className='flex flex-col items-center gap-7'>
                 <ul className='flex text-base flex-col gap-7'>
