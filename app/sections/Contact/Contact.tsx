@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <section
         id="contact"
-        className='relative remax-w-containerSmall mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
+        className='relative max-w-containerSmall mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center px-4 mdl:px-0'
     >
 
       <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>

@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 import Link from 'next/link';
 
@@ -28,11 +27,9 @@ function Navbar() {
         });
         e.currentTarget.classList.add("active");
     }
-
-    // #fffdef
-
+    
   return (
-    <div className="w-full dark:shadow-navbarShadow  h-20 lg:h-[12vh] sticky top-0 z-50 dark:bg-bodyColor  bg-bodyColorLight px-4 ">
+    <div className="w-full h-20 lg:h-[12vh] sticky top-0 px-4 z-50 dark:bg-bodyColor dark:shadow-navbarShadow bg-bodyColorLight">
         <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
             <motion.div 
                 initial={{ opacity: 0 }} 

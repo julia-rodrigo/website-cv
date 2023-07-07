@@ -6,12 +6,21 @@
     color: #64ffda;
 }
 
-body {
-    /* cursor: none; */
+/* #main {
+    --nav-height: 5rem;
+    padding-top: var(--nav-height);
 }
 
-@layer components{
+.navBar {
+    width: 100%; 
+    height: var(--nav-height);
+    position: sticky;
+    top: 0; 
+    padding-left: 1rem
+    padding-right: 1rem
+} */
 
+@layer components{
     .circle {
         @apply h-[24px] w-[24px] rounded-full bg-white 
     }

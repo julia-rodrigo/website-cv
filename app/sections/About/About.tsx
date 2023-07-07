@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section
         id="about"
-        className='relative max-w-containerSmall px-6 md:px-16 xl:px-0 mx-auto py-10 flex flex-col gap-8'
+        className='relative max-w-containerSmall px-3 mdl:px-16 xl:px-0 mx-auto py-10 flex flex-col gap-8'
     >
 
       <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
