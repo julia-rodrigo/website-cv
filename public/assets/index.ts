@@ -30,7 +30,7 @@ import logofull from './me/logofull.png'
 
 import amazon from './site-images/amazon.png'
 import theme_park from './site-images/theme_park.jpg'
-import ruby_rpg3 from './site-images/ruby_rpg.png'
+import ruby_rpg3 from './site-images/ruby_rpg3.png'
 
 var ruby_images = [
     ruby1, 
