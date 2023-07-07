@@ -30,8 +30,6 @@ import logofull from './me/logofull.png'
 
 import amazon from './site-images/amazon.png'
 import theme_park from './site-images/theme_park.jpg'
-import ruby_rpg1 from './site-images/ruby_rpg1.png'
-import ruby_rpg2 from './site-images/ruby_rpg2.png'
 import ruby_rpg3 from './site-images/ruby_rpg3.png'
 
 var ruby_images = [
@@ -66,8 +64,6 @@ export {
     me,
     me2,
     maya,
-    ruby_rpg1,
-    ruby_rpg2,
     ruby_rpg3,
     paper_hill,
 }

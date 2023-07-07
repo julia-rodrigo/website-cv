@@ -65,6 +65,7 @@ const ruby = [
     "I gave up on making cursor animations",
     "Pixel and Lottiefile animations are lively!",
     "Smiles goes for miles!",
+    "My CV was made in Canva",
 ]
 
 export default ruby;
