@@ -13,7 +13,6 @@ import StarJumps from '@/app/components/background/StarJumps';
 
 const Project = () => {
   const [ showMore, setShowMore ] = useState(false);
-
   return (
     <section
         id="projects"
@@ -64,9 +63,9 @@ const Project = () => {
                           initial = {{ opacity: 0}}
                           whileInView={{ opacity: 1}}
                           transition={{ delay: ((i+1)/100)}}
+                          key={i}
                         >
                             <ArchiveCard 
-                              key={i}
                               title = {archive.title}
                               des = {archive.des}
                               tags = {archive.tags}
@@ -78,8 +77,6 @@ const Project = () => {
                 </div>
             )
         }
-
-        
 
         <div className='relative mt-20 flex items-center justify-center'>
             <div className='dark:hidden inline-block absolute w-full h-screen -z-10'>
