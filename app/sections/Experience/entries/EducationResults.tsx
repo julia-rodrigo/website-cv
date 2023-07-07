@@ -23,7 +23,7 @@ const EducationResults = (results: ResultProps) => {
             >
                 <div className='flex items-center gap-2'>
                     <span 
-                    className='dark:text-textGreen text-textPlant md:text-lg text-md'
+                    className='dark:text-textGreen text-textPlant md:text-xl text-lg'
                     >
                     {<TiArrowForward />}
                     </span> 

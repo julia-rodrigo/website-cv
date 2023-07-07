@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/assets/me/logo.png" />
 
       </Head>
-      <main className='relative w-full h-screen font-bodyFont dark:bg-bodyColor bg-bgColor text-textLight overflow-x-hidden md:overflow-y-scroll overflow-y-hidden scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'>
+      <main className='relative w-full h-screen font-bodyFont dark:bg-bodyColor bg-bgColor text-textLight overflow-x-hidden sm:overflow-y-scroll overflow-y-hidden scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'>
         
         <div className='dark:hidden inline-block absolute w-full h-screen'>
           <StarField />

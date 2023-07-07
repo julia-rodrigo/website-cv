@@ -17,7 +17,7 @@ const experience_data = {
             "id": 2,
             "name": "Rodrigo Fine Foods",
             "title": "Storehouse Management",
-            "where": "@Rodrigo_Fine_Foods",
+            "where": "@Rodrigo_FineFoods",
             "when": "Feb 2022 - August 2022",
 
             "des": [
