@@ -50,7 +50,7 @@ const Education = ({ id, title, where, when, year }: educationProps) => {
         <h3 className="flex gap-1 font-medium text-xl font-titleFont dark:text-textLight text-bodyColor">
             {title}
             <span
-                className="dark:text-textGreen tracking-wide text-textPlant md:text-lg text-md"
+                className="dark:text-textGreen tracking-wide text-textPlant md:text-xl text-lg"
             >
                 {where}
             </span>
