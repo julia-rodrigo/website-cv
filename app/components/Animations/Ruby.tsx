@@ -30,7 +30,7 @@ const Ruby = () => {
                 priority
               />
             </div>
-            <span className='absolute dark:text-textGreen text-hoverDark font-medium text-sm upercase  bg-textWall/10 dark:bg-hoverColor px-4 py-[1px] ml-6 rounded-xl sm:translate-x-3 sm:group-hover/ruby:translate-x-8 translate-x-3 group-hover/ruby:translate-x-12 transition-all duration-300 opacity-0 group-hover/ruby:opacity-95 mr-5'>
+            <span className='absolute dark:text-textGreen text-hoverDark font-medium sm:text-sm text-xs upercase  bg-textWall/10 dark:bg-hoverColor px-4 py-[1px] ml-6 rounded-xl sm:translate-x-3 sm:group-hover/ruby:translate-x-8 translate-x-3 group-hover/ruby:translate-x-12 transition-all duration-300 opacity-0 group-hover/ruby:opacity-95 mr-5'>
               {speech}
             </span>
           </div>

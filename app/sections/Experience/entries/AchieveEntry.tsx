@@ -21,7 +21,7 @@ const AchieveEntry = ({ name, when, des } : EntryProps) => {
         </h3>
 
         <p 
-            className="text-sm mt-1 font-medium dark:text-textGreen text-textPlant"
+            className="text-sm mt-1 font-medium dark:text-textGreen text-textPlant md:text-lg text-md"
         >
             {when}
         </p>

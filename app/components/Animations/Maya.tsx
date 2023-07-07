@@ -20,7 +20,7 @@ const Maya = () => {
         className='flex flex-row group/maya relative items-center'
     >
         <Image className="max-w-[100%]" src={maya} alt="logo" onClick={handleSpeech} priority/>
-        <span className='absolute text-textGreen font-medium text-sm upercase bg-hoverColor px-4 py-[1px] ml-6 rounded-xl translate-x-2 group-hover/maya:translate-x-8 transition-all duration-300 opacity-0 group-hover/maya:opacity-95'>
+        <span className='absolute text-textGreen font-medium sm:text-sm text-xs upercase bg-hoverColor px-4 py-[1px] ml-6 rounded-xl translate-x-2 group-hover/maya:translate-x-8 transition-all duration-300 opacity-0 group-hover/maya:opacity-95'>
             {speech}
         </span>
     </div>
