@@ -18,7 +18,7 @@ const experience_data = {
             "name": "Rodrigo Fine Foods",
             "title": "Storehouse Management",
             "where": "@Rodrigo_FineFoods",
-            "when": "Feb 2022 - August 2022",
+            "when": "May 2018 - Jan 2022, September 2022 - present",
 
             "des": [
                 "Rodrigo Trading is a company that focuses on providing Ireland with a taste of food from various cultures around Asia.",
