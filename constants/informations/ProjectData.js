@@ -1,19 +1,19 @@
-import { amazon, theme_park, ruby_rpg3 } from "@/public/assets/index"
+import { aireserve, theme_park, ruby_rpg3 } from "@/public/assets/index"
 
 const project_data = [
     {
         "id": 1,
-        "title": "Amazon Clone with Firebase Database",
+        "title": "AirBnb clone on Next.js: AiReserve",
         "des": 
             <p>
-                A one page Amazon shopping system on 
-                <span className='font-bold dark:font-thin dark:text-textGreen'> React </span>
-                with Firebase database and hosting. You can add goods to your basket.
+                An AirBnb clone made in Next.js using custom hooks and using 
+                <span className='font-bold dark:font-thin dark:text-textGreen'> Prisma and Mongodb </span>
+                . You can log in quickly using your google or git account. You can book reservations and register your home as a Bmb.
             </p>,
-        "image_path": amazon,
-        "git_link": "https://github.com/julia-rodrigo/amazon-clone-with-firebase",
-        "web_link": "https://again-d5564.web.app/",
-        "tags": ["React", "Javascript", "Stripe", "Firebase"],
+        "image_path": aireserve,
+        "git_link": "https://github.com/julia-rodrigo/AiReserve",
+        "web_link": "https://aireserve.vercel.app/",
+        "tags": ["Next.js", "Typescript", "Next-auth", "Prisma", "Mongodb"],
         "video_link": ""
     },
     {

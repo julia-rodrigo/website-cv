@@ -28,7 +28,7 @@ import drawing from './me/drawing.jpg'
 import logo from './me/logo.png'
 import logofull from './me/logofull.png'
 
-import amazon from './site-images/amazon.png'
+import aireserve from './site-images/aireserve.png'
 import theme_park from './site-images/theme_park.jpg'
 import ruby_rpg3 from './site-images/ruby_rpg3.png'
 
@@ -59,7 +59,7 @@ export {
     logo,
     logofull,
     drawing,
-    amazon,
+    aireserve,
     theme_park,
     me,
     me2,
