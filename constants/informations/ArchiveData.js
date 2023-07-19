@@ -40,6 +40,13 @@ const archive_data = [
         "des": "This is the code for the shop keeper that we used in the expanded theme park. I used viewports and backend code to work together with the UI.",
         "git_link": "https://github.com/julia-rodrigo/godot-shopping-interaction",
         "tags": ["Godot", "GDscript"], 
+    }, 
+    {
+        "id": 7,
+        "title": "Backend Server",
+        "des": "REST API code on the server side using Node.js and mongodb as my database. All followed through a youtube tutorial.",
+        "git_link": "https://github.com/julia-rodrigo/backend-server",
+        "tags": ["Mongodb", "Node.js"], 
     },
 
 ]
