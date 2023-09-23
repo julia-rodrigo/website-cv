@@ -31,15 +31,15 @@ const Deer = () => {
 
   return (
     <div className='group/deer flex flex-row items-center relative'>
-        <div className='md:ml-10 sm:ml-0 relative h-[100px] w-[100px] items-center justify-center rounded-full dark:bg-transparent bg-[#e9e2a9]'>
+        <div className='md:ml-10 pt-2 sm:ml-0 relative max-h-[80px] max-w-[80px] items-center justify-center rounded-full dark:bg-transparent bg-[#e9e2a9]'>
             <Lottie 
                 animationData={deer} 
-                className='min-w-[100px] justify-center items-center animate-spin-slow dark:animate-none' 
+                className='max-w-[80px] items-center animate-spin-slow dark:animate-none' 
                 onClick={handleTheme}
             />
         </div>
         <span 
-            className='absolute w-full dark:text-yellow-200 text-textWall font-medium text-sm upercase bg-textWall/10 dark:bg-hoverColor px-4 py-[1px] ml-6 rounded-xl left-14 translate-x-6 group-hover/deer:translate-x-12 transition-all duration-300 opacity-0 group-hover/deer:opacity-95'
+            className='absolute w-full dark:text-yellow-200 text-textWall font-medium text-sm bg-textWall/10 dark:bg-hoverColor px-4 py-[1px] ml-6 rounded-xl left-14 translate-x-6 group-hover/deer:translate-x-12 transition-all duration-300 opacity-0 group-hover/deer:opacity-95'
         >
             {theme == 'dark' ? 'baaa~ ' : 'zzZZ... '} { week[date.getDay()] }, { date.getHours() }h:{ date.getMinutes() }m
         </span>

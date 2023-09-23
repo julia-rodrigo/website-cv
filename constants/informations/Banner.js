@@ -1,5 +1,5 @@
 import { FaLinkedinIn, FaReact, FaJava } from 'react-icons/fa'
-import { SiGodotengine, SiGmail, SiTypescript } from 'react-icons/si'
+import { SiGodotengine, SiGmail, SiTypescript, SiCplusplus } from 'react-icons/si'
 
 const banner_data = {
     "find_me": [
@@ -25,12 +25,6 @@ const banner_data = {
             "icon": <FaReact />,
         },
         {
-            "id": 2,
-            "title": "Godot v3",
-            "des": "",
-            "icon": <SiGodotengine />,
-        },
-        {
             "id": 3,
             "title": "TypeScript",
             "des": "",
@@ -41,6 +35,18 @@ const banner_data = {
             "title": "Java",
             "des": "",
             "icon": <FaJava />,
+        },
+        {
+            "id": 5,
+            "title": "C++",
+            "des": "",
+            "icon": <SiCplusplus />,
+        },
+        {
+            "id": 2,
+            "title": "Godot v3",
+            "des": "",
+            "icon": <SiGodotengine />,
         },
     ]
 }

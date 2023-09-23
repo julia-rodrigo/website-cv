@@ -13,7 +13,7 @@ const about_data = [
     },
     {
         "id": 3,
-        "title": "Godot v3",
+        "title": "Godot",
         "icon": <AiFillThunderbolt />,
     },
     {
@@ -59,6 +59,21 @@ const about_data = [
     {
         "id": 12,
         "title": "Git",
+        "icon": <AiFillThunderbolt />,
+    },
+    {
+        "id": 13,
+        "title": "C++",
+        "icon": <AiFillThunderbolt />,
+    },
+    {
+        "id": 14,
+        "title": "Python",
+        "icon": <AiFillThunderbolt />,
+    },
+    {
+        "id": 15,
+        "title": "Ruby",
         "icon": <AiFillThunderbolt />,
     },
 ]

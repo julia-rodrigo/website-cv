@@ -21,17 +21,17 @@ const About = () => {
       <div className='flex flex-col lgl:flex-row gap-16'>
         <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
             <p className='hoverParagraph'>
-                This is my fouth year programming, and I have touched on many programming languages throughout my years in University.
+                Thoughout my college years, I’ve adventured deep into honing my skills in <span className='spanTag'>JavaScript</span> and <span className='spanTag'>Typescript</span>. 
+                I've experimented with <span className='spanTag'>Java</span> and <span className='spanTag'>SQL</span>, and eventually developed an appetite for learning <span className='spanTag'>C++, C# and python</span>.
             </p>
             <p className='hoverParagraph'>
-                In first year, I learnt <span className='spanTag'>Java</span> from fulfilling minor assignments. Later, I was exposed to 
-                <span className='spanTag'> html and javascript</span>.
-                I used <span className='spanTag'>React.js framework and Firebase Database</span> for making web applications for the next two years. 
+                Exploring various techniques and technologies, such as databases manipulation, <span className='spanTag'>React frameworks, Next.js, Node</span> and applications testing, 
+                university has granted me the privilege of collaborating on projects with like-minded individuals 
+                and pushing the boundaries of my knowledge. 
             </p>
             <p className='hoverParagraph'>
-                This year, I tried something new. I created a short <span className='spanTag'> 2.5D pixel RPG game on Godot</span>, 
-                involving monster catching and character interaction, as part of my year-long project for university. 
-                Now I moved back into web life, sharing you this CV made with <span className='spanTag'>typescript and using react-next-app</span> framework.
+                Now, as I step into the professional world, I am eager to apply my knowledge and creativity into the real world 
+                and make meaningful impacts with an inspiring, talented and enthusiastic team.
             </p>
             <p className='hoverParagraph'>
                Here are technologies I am familiar with:

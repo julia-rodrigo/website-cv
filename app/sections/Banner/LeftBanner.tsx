@@ -7,7 +7,7 @@ import Deer from '@/app/components/Animations/Deer';
 const LeftBanner = () => {
 
     const [text] = useTypewriter ({
-        words: [" Full-Stack Developer.", "n Aspiring Game Developer.", " Front/Back-end Engineer.", " UI/UX Designer.", " Pixel Inspired Artist.", " Future Guitarist.", " Flexible Programmer."],
+        words: [" Full-Stack Developer.", "n Aspiring Game Developer.", " Front/Back-end Engineer.", " UI/UX Designer.", " Pixel Inspired Artist."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 30,
@@ -63,9 +63,8 @@ const LeftBanner = () => {
 
                 className='text-base md:max-w-[650px] dark:text-textLight text-black font-medium tracking-wide'
             >
-              I am a creative computer science student with 2 years experience in web development and 1 year experience in game development, 
-              eager to improve my skills and building new projects with individuals (like you !).
-
+              I’m Julia Rodrigo, a recent graduate with a passion for building websites, application and games. 
+              My journey into the world of Computer Sciences started with a casual curiosity to programming in my early college years.
             </motion.p>
           </div>
         <motion.div

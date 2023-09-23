@@ -19,12 +19,35 @@ const Maya = () => {
     <div 
         className='flex flex-row group/maya relative items-center'
     >
-        <Image className="max-w-[100%]" src={maya} alt="logo" onClick={handleSpeech} priority/>
-        <span className='absolute text-textGreen font-medium sm:text-sm text-xs upercase bg-hoverColor px-4 py-[1px] ml-6 rounded-xl translate-x-2 group-hover/maya:translate-x-8 transition-all duration-300 opacity-0 group-hover/maya:opacity-95'>
+        <Image 
+          // className='w-auto h-auto'
+          className='w-auto sm:h-[26px] min-h-auto'
+          src={maya} alt="logo" onClick={handleSpeech} priority
+        />
+        {/* <Image className="max-w-[100%]" src={maya} alt="logo" onClick={handleSpeech} priority/> */}
+        <span className='absolute text-textGreen font-medium sm:text-sm text-xs bg-hoverColor px-4 py-[1px] ml-6 rounded-xl translate-x-2 group-hover/maya:translate-x-8 transition-all duration-300 opacity-0 group-hover/maya:opacity-95'>
             {speech}
         </span>
     </div>
 
+      // <div className='relative p-4'>
+      //   <div className='h-[60px] relative flex flex-row '>
+      //     <div className='group/ruby flex flex-row gap-6 items-center' >
+      //       <div className='flex items-center h-[40px] justify-center'>
+      //         <Image
+      //           src={maya}
+      //           alt="logo"
+      //           className='mx-10 sm:mx-0 cursor-pointer relative w-auto h-auto'
+      //           onClick={handleSpeech}
+      //           priority
+      //         />
+      //       </div>
+      //       <span className='absolute text-textGreen font-medium sm:text-sm text-xs bg-hoverColor px-4 py-[1px] ml-6 rounded-xl translate-x-2 group-hover/maya:translate-x-8 transition-all duration-300 opacity-0 group-hover/maya:opacity-95'>
+      //         {speech}
+      //       </span>
+      //     </div>
+      //   </div>
+      // </div>
     
   )
 }
