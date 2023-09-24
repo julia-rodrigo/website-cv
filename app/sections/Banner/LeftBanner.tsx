@@ -63,7 +63,7 @@ const LeftBanner = () => {
 
                 className='text-base md:max-w-[650px] dark:text-textLight text-black font-medium tracking-wide'
             >
-              I’m Julia Rodrigo, a recent graduate with a passion for building websites, application and games. 
+              I am a recent graduate with a passion for building websites, application and games. 
               My journey into the world of Computer Sciences started with a casual curiosity to programming in my early college years.
             </motion.p>
           </div>
