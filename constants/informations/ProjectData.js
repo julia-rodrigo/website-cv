@@ -8,7 +8,7 @@ const project_data = [
             <p>
                 An AirBnb clone made in Next.js using custom hooks and using 
                 <span className='font-bold dark:font-thin dark:text-textGreen'> Prisma and Mongodb </span>
-                . You can log in quickly using your google or git account. You can book reservations and register your home as a Bmb.
+                . Users can log in quickly using their google or git account, book reservations and register homes in listings.
             </p>,
         "image_path": aireserve,
         "git_link": "https://github.com/julia-rodrigo/AiReserve",
@@ -21,9 +21,8 @@ const project_data = [
         "title": "Godot Theme Park",
         "des": 
             <p>
-                In this team project, I designed the backend system and UI. 
-                All objects were made on blender from other teammates. 
-                You can interact with characters by touching the screen and buy items off them.
+                A team project with the target of creating a theme-park shopping experience in an android smartphone. 
+                Characters are interactable and items are purchasable.
             </p>,
         "image_path": theme_park,
         "git_link": "https://github.com/julia-rodrigo/godot-theme-park",
@@ -36,8 +35,7 @@ const project_data = [
         "title": "Godot Ruby RPG",
         "des": 
             <p>
-                A <span className='font-bold dark:font-thin dark:text-textGreen'> pokemon-like rpg</span> game in Godot with some character sprites I made. 
-                There is no variety in the monster sprites as I focused on the inner mechanics of the game. 
+                A <span className='font-bold dark:font-thin dark:text-textGreen'> monster-catching rpg</span> game in Godot with designed character sprites. 
                 You complete three quests and build a team to complete the game.
             </p>,
         "image_path": ruby_rpg3,
