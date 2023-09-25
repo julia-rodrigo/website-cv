@@ -24,6 +24,7 @@ import maya from './animations/maya/maya.gif'
 
 import me from './me/me.png'
 import me2 from './me/me2.png'
+import photo from './me/photo.jpg'
 import drawing from './me/drawing.jpg'
 import logo from './me/logo.png'
 import logofull from './me/logofull.png'
@@ -63,6 +64,7 @@ export {
     theme_park,
     me,
     me2,
+    photo,
     maya,
     ruby_rpg3,
     paper_hill,

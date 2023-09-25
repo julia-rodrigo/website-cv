@@ -1,5 +1,5 @@
 import SectionTitle from '@/app/components/SectionTitle'
-import { me2, drawing } from '@/public/assets'
+import { me2, photo, drawing } from '@/public/assets'
 import Image from 'next/image'
 import React from 'react'
 import about_data from "../../../constants/informations/About"
@@ -53,11 +53,11 @@ const About = () => {
               ))}
             </ul>
         </div>
-        <div className='w-full lgl:w-1/3 md:w-1/2 group'>
+        <div className='w-full lgl:w-1/3 md:w-1/2 group dark:hidden'>
           <div className="w-full -left-6 -top-6 rounded-lg">
             <div className='relative w-full h-full lgl:h-full z-20 flex pl-10 lgl:pl-0 '>
               <Image 
-                className='z-10 rounded-lg object-cover hidden lgl:inline-flex'
+                className='z-10 rounded-lg object-cover hidden lgl:inline-flex '
                 src={me2}
                 alt="profileImage"
               />
@@ -69,6 +69,22 @@ const About = () => {
                     src={drawing}
                     alt="profileImage"
                   />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='w-full lgl:w-1/3 md:w-1/2 group hidden dark:inline-block'>
+          <div className="w-full -left-6 -top-6 rounded-lg">
+            <div className='relative w-full h-full lgl:h-full z-20 flex pl-10 lgl:pl-0 '>
+              <Image 
+                className='z-10 rounded-lg object-cover hidden lgl:inline-flex '
+                src={photo}
+                alt="profileImage"
+              />
+              <div className='absolute hidden lgl:inline-flex w-full h-full border-2 -right-4 -bottom-4 border-textGreen rounded-md group-hover:border-pink-200 group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300'></div>
+
+              <div className='absolute z-10 hidden lgl:inline-block w-full h-full bg-textLight/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300'>
+              
               </div>
             </div>
           </div>
